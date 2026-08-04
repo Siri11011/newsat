@@ -1,0 +1,682 @@
+2026-08-04 21:16:50,657 - INFO - dmf.workflows.DmfWorkflow - Creating workflow 2fdf9e33-9b7e-45b2-b340-f089b0c815ad
+2026-08-04 21:16:52,957 - INFO - dmf.workflows.analysis_modules.SaraOnlyWorkflow - Creating configurations
+2026-08-04 21:16:52,957 - INFO - dmf.processes.DmfProcess - Creating cstate process cf8ee159-825d-4b0d-9e8e-b03dce12f318
+2026-08-04 21:16:52,957 - INFO - dmf.processes.DmfProcess - Creating cstate process 9c5792f6-a083-453c-b011-1154a4ca1547
+2026-08-04 21:16:52,957 - INFO - dmf.processes.CStateProcess - Transformation of orbital state needed
+2026-08-04 21:17:00,650 - INFO - dmf.processes.CStateProcess - Starting to execute 9c5792f6-a083-453c-b011-1154a4ca1547
+2026-08-04 21:17:00,682 - INFO - dmf.processes.CStateProcess - Starting to execute cf8ee159-825d-4b0d-9e8e-b03dce12f318
+2026-08-04 21:17:01,017 - INFO - dmf.processes.CStateProcess - Finished 9c5792f6-a083-453c-b011-1154a4ca1547
+2026-08-04 21:17:01,027 - INFO - dmf.processes.CStateProcess - Finished cf8ee159-825d-4b0d-9e8e-b03dce12f318
+2026-08-04 21:17:02,263 - INFO - dmf.processes.DmfProcess - Creating sara process 6372388c-bb87-48ec-bab3-78791bc22560
+2026-08-04 21:17:02,278 - INFO - dmf.processes.DmfProcess - Creating sara process 6e4587f6-df88-4648-b150-c477df16b5ac
+2026-08-04 21:17:07,223 - INFO - dmf.processes.SaraProcess - Starting to execute SARA 6e4587f6-df88-4648-b150-c477df16b5ac
+2026-08-04 21:17:07,223 - INFO - dmf.processes.SaraProcess - Starting to execute SARA 6372388c-bb87-48ec-bab3-78791bc22560
+2026-08-04 21:17:07,309 - INFO - dmf.processes.SaraProcess - Stored pySARA inputs in F:\\Survival_analysis of satellite re entry\\linear_cubesat\\input\\last_sara.json
+2026-08-04 21:17:07,309 - INFO - dmf.processes.SaraProcess - Stored pySARA inputs in F:\\Survival_analysis of satellite re entry\\linear_cubesat\\input\\last_sara.json
+2026-08-04 21:17:19,361 - INFO - PySara - Using default fap_day file from installation directory: F:\\TOOLS\\OSCAR\\data
+2026-08-04 21:17:19,363 - INFO - PySara - Using default fap_day file from installation directory: F:\\TOOLS\\OSCAR\\data
+2026-08-04 21:17:19,457 - INFO - PySara - Using default fap_mon file from installation directory: F:\\TOOLS\\OSCAR\\data
+2026-08-04 21:17:19,459 - INFO - PySara - Using default fap_mon file from installation directory: F:\\TOOLS\\OSCAR\\data
+2026-08-04 21:17:20,285 - INFO - sara_live_log - Reentry #_______________________________________________________________________________
+2026-08-04 21:17:20,285 - INFO - sara_live_log - Reentry #    ######   ####     ##             #####   #####     ##    #    #    ##
+2026-08-04 21:17:20,287 - INFO - sara_live_log - Reentry #    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+2026-08-04 21:17:20,287 - INFO - sara_live_log - Reentry #    #####    ####   ######           #    #  #####   ######  # ## #  ######
+2026-08-04 21:17:20,287 - INFO - sara_live_log - Reentry #    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+2026-08-04 21:17:20,287 - INFO - sara_live_log - Reentry #____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+2026-08-04 21:17:20,287 - INFO - sara_live_log - Reentry #
+2026-08-04 21:17:20,287 - INFO - sara_live_log - Reentry #               ESA Debris Risk Assessment and Mitigation Analysis
+2026-08-04 21:17:20,287 - INFO - sara_live_log - Reentry #
+2026-08-04 21:17:20,287 - INFO - sara_live_log - Reentry #   ---- DRAMA ( SESAM 2.3.0 ( built Mar 17 2026 16:55:01) ) ----
+2026-08-04 21:17:20,289 - INFO - sara_live_log - Reentry #                                      ESA 2022
+2026-08-04 21:17:20,289 - INFO - sara_live_log - Reentry #
+2026-08-04 21:17:20,289 - INFO - sara_live_log - Reentry #                        execution log file -sesam.log-
+2026-08-04 21:17:20,289 - INFO - sara_live_log - Reentry #                   run date+time: Tue Aug  4 21:17:20 2026
+2026-08-04 21:17:20,289 - INFO - sara_live_log - Reentry info: Starting Sesam
+2026-08-04 21:17:20,289 - INFO - sara_live_log - Reentry info: SESAM module initialising
+2026-08-04 21:17:20,289 - INFO - sara_live_log - Reentry info: Using voxelator cache dir: F:\\Survival_analysis of satellite re entry\\linear_cubesat\\data
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-A316 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-A316_Semi-Empirical < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-BatCell-ABSL < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Bat-Li < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Bat-NiCd < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Beryllium < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Carbon-Carbon < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Copper < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-El-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,289 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-FusedSilicaProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-GFRPProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Haynes25Thick < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Haynes25Thin < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-HC-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-HC-CFRP-4ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-HC-CFRP-8ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-HiperCo < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Inconel718 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Inermet < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,293 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Invar < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,295 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Iron < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,295 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Molybdenum < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,295 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-SiC < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,295 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-SolarPanel-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,295 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-TiAl6v4 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,295 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-TiAl6v4_Semi-Empirical < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,296 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Tungsten < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,296 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-ZerodurProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,309 - INFO - sara_live_log - Reentry #_______________________________________________________________________________
+2026-08-04 21:17:20,309 - INFO - sara_live_log - Reentry #    ######   ####     ##             #####   #####     ##    #    #    ##
+2026-08-04 21:17:20,309 - INFO - sara_live_log - Reentry #    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+2026-08-04 21:17:20,309 - INFO - sara_live_log - Reentry #    #####    ####   ######           #    #  #####   ######  # ## #  ######
+2026-08-04 21:17:20,309 - INFO - sara_live_log - Reentry #    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+2026-08-04 21:17:20,309 - INFO - sara_live_log - Reentry #____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+2026-08-04 21:17:20,309 - INFO - sara_live_log - Reentry #
+2026-08-04 21:17:20,311 - INFO - sara_live_log - Reentry #               ESA Debris Risk Assessment and Mitigation Analysis
+2026-08-04 21:17:20,311 - INFO - sara_live_log - Reentry #
+2026-08-04 21:17:20,311 - INFO - sara_live_log - Reentry #   ---- DRAMA ( SESAM 2.3.0 ( built Mar 17 2026 16:55:01) ) ----
+2026-08-04 21:17:20,311 - INFO - sara_live_log - Reentry #                                      ESA 2022
+2026-08-04 21:17:20,311 - INFO - sara_live_log - Reentry #
+2026-08-04 21:17:20,312 - INFO - sara_live_log - Reentry #                        execution log file -sesam.log-
+2026-08-04 21:17:20,312 - INFO - sara_live_log - Reentry #                   run date+time: Tue Aug  4 21:17:20 2026
+2026-08-04 21:17:20,312 - INFO - sara_live_log - Reentry info: Starting Sesam
+2026-08-04 21:17:20,313 - INFO - sara_live_log - Reentry info: SESAM module initialising
+2026-08-04 21:17:20,313 - INFO - sara_live_log - Reentry info: Using voxelator cache dir: F:\\Survival_analysis of satellite re entry\\linear_cubesat\\data
+2026-08-04 21:17:20,313 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,313 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-A316 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,313 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-A316_Semi-Empirical < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,313 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-BatCell-ABSL < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Bat-Li < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Bat-NiCd < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Beryllium < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Carbon-Carbon < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Copper < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-El-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-FusedSilicaProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-GFRPProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Haynes25Thick < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,315 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Haynes25Thin < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,317 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-HC-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,317 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-HC-CFRP-4ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,319 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-HC-CFRP-8ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,321 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-HiperCo < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,321 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Inconel718 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,321 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Inermet < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,321 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Invar < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,321 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Iron < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,321 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Molybdenum < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,321 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-SiC < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,323 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-SolarPanel-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,323 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-TiAl6v4 < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,323 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-TiAl6v4_Semi-Empirical < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,323 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-Tungsten < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,323 - WARNING - sara_live_log - Reentry warning: oxideReactionProbability for drama-ZerodurProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+2026-08-04 21:17:20,323 - INFO - sara_live_log - Reentry info: Fragment satelliteOne initializing
+2026-08-04 21:17:20,323 - INFO - sara_live_log - Reentry info: Creation of object list
+2026-08-04 21:17:20,412 - INFO - sara_live_log - Reentry info: Fragment satelliteOne initializing
+2026-08-04 21:17:20,412 - INFO - sara_live_log - Reentry info: Creation of object list
+2026-08-04 21:17:20,412 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 641385a0-5f83-450a-a820-eea5ec3721e1
+2026-08-04 21:17:20,412 - INFO - sara_live_log - Reentry info: Opening netCDF file F:\\TOOLS\\SARA\\REENTRY/data/ATDB_BOX.nc for reading DONE.
+2026-08-04 21:17:20,412 - INFO - sara_live_log - Reentry info: Using ATDB for BOX created with SAM on 20200306 from data created by Belstead Research Limited.
+2026-08-04 21:17:20,427 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 641385a0-5f83-450a-a820-eea5ec3721e1
+2026-08-04 21:17:20,427 - INFO - sara_live_log - Reentry info: Opening netCDF file F:\\TOOLS\\SARA\\REENTRY/data/ATDB_BOX.nc for reading DONE.
+2026-08-04 21:17:20,427 - INFO - sara_live_log - Reentry info: Using ATDB for BOX created with SAM on 20200306 from data created by Belstead Research Limited.
+"2026-08-04 21:17:20,535 - INFO - sara_live_log - Reentry info: Included new object Structure to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: be7c5bf2-c0a2-44f3-bb33-d90404150716
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Opening netCDF file F:\\TOOLS\\SARA\\REENTRY/data/ATDB_CYLINDER.nc for reading DONE.
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Using ATDB for CYLINDER created with ATDB_converter r1933 on 20190411 from data created by Hyperschall Technologie Göttingen GmbH.
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object Antenna to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 7cd7767b-ebe1-4361-a403-3e94664c9816
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object ADCS to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object EPS to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: b4eebe26-0f45-4dee-903e-d1fdc93bd52e
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object OBC to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: f03116e5-b2c9-4716-881e-afee90665229
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object COMM to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: b51424f8-fd76-4e5f-9316-42778b83ca39
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object PAYLOAD to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: cb109bb6-e00d-4d1e-88f9-d77e3396d29e
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL +X to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 14293697-d071-44f0-a193-a06ad36408cf
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL -X to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 909d6c11-5860-4faf-95ad-9caca83cbaab
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL+Y to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 977a7ad8-0dc4-41a0-8565-8459b641d630
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL-Y to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 848e52c9-2076-4c7c-8aff-e4e7354094ec
+"2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL +Z to fragment list"
+2026-08-04 21:17:20,536 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 8bc30e9f-23da-4053-94d7-a85ea5a2183e
+"2026-08-04 21:17:20,547 - INFO - sara_live_log - Reentry info: Included new object Structure to fragment list"
+2026-08-04 21:17:20,547 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: be7c5bf2-c0a2-44f3-bb33-d90404150716
+2026-08-04 21:17:20,547 - INFO - sara_live_log - Reentry info: Opening netCDF file F:\\TOOLS\\SARA\\REENTRY/data/ATDB_CYLINDER.nc for reading DONE.
+2026-08-04 21:17:20,547 - INFO - sara_live_log - Reentry info: Using ATDB for CYLINDER created with ATDB_converter r1933 on 20190411 from data created by Hyperschall Technologie Göttingen GmbH.
+"2026-08-04 21:17:20,547 - INFO - sara_live_log - Reentry info: Included new object Antenna to fragment list"
+2026-08-04 21:17:20,547 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 7cd7767b-ebe1-4361-a403-3e94664c9816
+"2026-08-04 21:17:20,547 - INFO - sara_live_log - Reentry info: Included new object ADCS to fragment list"
+2026-08-04 21:17:20,551 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8
+"2026-08-04 21:17:20,551 - INFO - sara_live_log - Reentry info: Included new object EPS to fragment list"
+2026-08-04 21:17:20,551 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: b4eebe26-0f45-4dee-903e-d1fdc93bd52e
+"2026-08-04 21:17:20,551 - INFO - sara_live_log - Reentry info: Included new object OBC to fragment list"
+2026-08-04 21:17:20,551 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: f03116e5-b2c9-4716-881e-afee90665229
+"2026-08-04 21:17:20,551 - INFO - sara_live_log - Reentry info: Included new object COMM to fragment list"
+2026-08-04 21:17:20,553 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: b51424f8-fd76-4e5f-9316-42778b83ca39
+"2026-08-04 21:17:20,553 - INFO - sara_live_log - Reentry info: Included new object PAYLOAD to fragment list"
+2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: cb109bb6-e00d-4d1e-88f9-d77e3396d29e
+"2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL +X to fragment list"
+2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 14293697-d071-44f0-a193-a06ad36408cf
+"2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL -X to fragment list"
+2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 909d6c11-5860-4faf-95ad-9caca83cbaab
+"2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL+Y to fragment list"
+2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 977a7ad8-0dc4-41a0-8565-8459b641d630
+"2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL-Y to fragment list"
+2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 848e52c9-2076-4c7c-8aff-e4e7354094ec
+"2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL +Z to fragment list"
+2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Creating Object with UniqueID: 8bc30e9f-23da-4053-94d7-a85ea5a2183e
+"2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL -Z to fragment list"
+2026-08-04 21:17:20,554 - INFO - sara_live_log - Reentry info: Handling of inclusions
+2026-08-04 21:17:20,556 - INFO - sara_live_log - Reentry info: inclusion with parent ID: 641385a0-5f83-450a-a820-eea5ec3721e1
+2026-08-04 21:17:20,556 - INFO - sara_live_log - Reentry info: childID: be7c5bf2-c0a2-44f3-bb33-d90404150716
+2026-08-04 21:17:20,556 - INFO - sara_live_log - Reentry info: childID: 7cd7767b-ebe1-4361-a403-3e94664c9816
+2026-08-04 21:17:20,557 - INFO - sara_live_log - Reentry info: childID: 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8
+2026-08-04 21:17:20,557 - INFO - sara_live_log - Reentry info: childID: b4eebe26-0f45-4dee-903e-d1fdc93bd52e
+2026-08-04 21:17:20,557 - INFO - sara_live_log - Reentry info: childID: f03116e5-b2c9-4716-881e-afee90665229
+2026-08-04 21:17:20,557 - INFO - sara_live_log - Reentry info: childID: b51424f8-fd76-4e5f-9316-42778b83ca39
+2026-08-04 21:17:20,557 - INFO - sara_live_log - Reentry info: childID: cb109bb6-e00d-4d1e-88f9-d77e3396d29e
+2026-08-04 21:17:20,557 - INFO - sara_live_log - Reentry info: childID: 14293697-d071-44f0-a193-a06ad36408cf
+2026-08-04 21:17:20,557 - INFO - sara_live_log - Reentry info: childID: 909d6c11-5860-4faf-95ad-9caca83cbaab
+2026-08-04 21:17:20,557 - INFO - sara_live_log - Reentry info: childID: 977a7ad8-0dc4-41a0-8565-8459b641d630
+2026-08-04 21:17:20,559 - INFO - sara_live_log - Reentry info: childID: 848e52c9-2076-4c7c-8aff-e4e7354094ec
+2026-08-04 21:17:20,559 - INFO - sara_live_log - Reentry info: childID: 8bc30e9f-23da-4053-94d7-a85ea5a2183e
+2026-08-04 21:17:20,559 - INFO - sara_live_log - Reentry info: Setting-up break-up triggers
+2026-08-04 21:17:20,559 - INFO - sara_live_log - Reentry info: Handling of connections
+"2026-08-04 21:17:20,668 - INFO - sara_live_log - Reentry info: Included new object SOLAR PANEL -Z to fragment list"
+2026-08-04 21:17:20,668 - INFO - sara_live_log - Reentry info: Handling of inclusions
+2026-08-04 21:17:20,668 - INFO - sara_live_log - Reentry info: inclusion with parent ID: 641385a0-5f83-450a-a820-eea5ec3721e1
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: be7c5bf2-c0a2-44f3-bb33-d90404150716
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: 7cd7767b-ebe1-4361-a403-3e94664c9816
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: b4eebe26-0f45-4dee-903e-d1fdc93bd52e
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: f03116e5-b2c9-4716-881e-afee90665229
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: b51424f8-fd76-4e5f-9316-42778b83ca39
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: cb109bb6-e00d-4d1e-88f9-d77e3396d29e
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: 14293697-d071-44f0-a193-a06ad36408cf
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: 909d6c11-5860-4faf-95ad-9caca83cbaab
+2026-08-04 21:17:20,671 - INFO - sara_live_log - Reentry info: childID: 977a7ad8-0dc4-41a0-8565-8459b641d630
+2026-08-04 21:17:20,673 - INFO - sara_live_log - Reentry info: childID: 848e52c9-2076-4c7c-8aff-e4e7354094ec
+2026-08-04 21:17:20,673 - INFO - sara_live_log - Reentry info: childID: 8bc30e9f-23da-4053-94d7-a85ea5a2183e
+2026-08-04 21:17:20,673 - INFO - sara_live_log - Reentry info: Setting-up break-up triggers
+2026-08-04 21:17:20,673 - INFO - sara_live_log - Reentry info: Handling of connections
+2026-08-04 21:17:20,674 - INFO - sara_live_log - Reentry info: Using spacecraft mass calculated from objects hierarchy: 0.919650
+2026-08-04 21:17:20,674 - INFO - sara_live_log - Reentry info: Testing for altitude above149km with input State: system= 232132
+epoch= 2024-08-01T12:00:00
+elements= 6783.997502
+0.001520
+51.646167
+184.583226
+16.277857
+343.574890
+2026-08-04 21:17:20,674 - INFO - sara_live_log - Reentry info: Initial altitude above 149.000000km. Propagating with oscar.
+2026-08-04 21:17:20,674 - INFO - sara_live_log - Reentry info: starting CstateConvertToOscar with input State: system= 232132
+epoch= 2024-08-01T12:00:00
+elements= 6783.997502
+0.001520
+51.646167
+184.583226
+16.277857
+343.574890
+2026-08-04 21:17:20,674 - INFO - sara_live_log - Reentry info: Using spacecraft mass calculated from objects hierarchy: 0.919650
+2026-08-04 21:17:20,674 - INFO - sara_live_log - Reentry info: Testing for altitude above149km with input State: system= 232132
+epoch= 2024-08-01T12:00:00
+elements= 6783.997502
+0.001520
+51.646167
+184.583226
+16.277857
+343.574890
+2026-08-04 21:17:20,676 - INFO - sara_live_log - Reentry info: Initial altitude above 149.000000km. Propagating with oscar.
+2026-08-04 21:17:20,676 - INFO - sara_live_log - Reentry info: starting CstateConvertToOscar with input State: system= 232132
+epoch= 2024-08-01T12:00:00
+elements= 6783.997502
+0.001520
+51.646167
+184.583226
+16.277857
+343.574890
+2026-08-04 21:17:20,808 - INFO - sara_live_log - Reentry info: starting PropagateWithOscar with input State: system= 231831
+epoch= 2024-08-01T12:00:00
+elements= 6777.998641
+0.000743
+51.605942
+183.722939
+35.329051
+324.926808
+2026-08-04 21:17:20,808 - INFO - sara_live_log - Reentry info: using fragment mass of 0.919650
+2026-08-04 21:17:20,808 - INFO - sara_live_log - Reentry info: starting PropagateWithOscar with input State: system= 231831
+epoch= 2024-08-01T12:00:00
+elements= 6777.998641
+0.000743
+51.605942
+183.722939
+35.329051
+324.926808
+2026-08-04 21:17:20,808 - INFO - sara_live_log - Reentry info: using fragment mass of 0.919650
+2026-08-04 21:17:27,233 - INFO - sara_live_log - Reentry info: Propagation ended with State: system= 231831
+epoch= 2024-12-25T06:26:31
+elements= 6497.309000
+0.000128
+51.577140
+155.970980
+103.018970
+208.135370
+2026-08-04 21:17:27,233 - INFO - sara_live_log - Reentry info: Testing for altitude above149km with input State: system= 231831
+epoch= 2024-12-25T06:26:31
+elements= 6497.309000
+0.000128
+51.577140
+155.970980
+103.018970
+208.135370
+2026-08-04 21:17:27,233 - INFO - sara_live_log - Reentry info: starting CstateConvertToHtgSesam with input State: system= 231831
+epoch= 2024-12-25T06:26:31
+elements= 6497.309000
+0.000128
+51.577140
+155.970980
+103.018970
+208.135370
+2026-08-04 21:17:27,265 - INFO - sara_live_log - Reentry info: Propagation ended with State: system= 231831
+epoch= 2024-12-25T06:26:31
+elements= 6497.309000
+0.000128
+51.577140
+155.970980
+103.018970
+208.135370
+2026-08-04 21:17:27,265 - INFO - sara_live_log - Reentry info: Testing for altitude above149km with input State: system= 231831
+epoch= 2024-12-25T06:26:31
+elements= 6497.309000
+0.000128
+51.577140
+155.970980
+103.018970
+208.135370
+2026-08-04 21:17:27,265 - INFO - sara_live_log - Reentry info: starting CstateConvertToHtgSesam with input State: system= 231831
+epoch= 2024-12-25T06:26:31
+elements= 6497.309000
+0.000128
+51.577140
+155.970980
+103.018970
+208.135370
+2026-08-04 21:17:27,265 - INFO - sara_live_log - Reentry info: Passing geodetic state below 149.000000km to sesam: State: system= 235102
+epoch= 2024-12-25T06:26:31
+elements= 126.495950
+-36.536165
+-69.663979
+7.540607
+-0.103179
+41.068362
+2026-08-04 21:17:27,359 - INFO - sara_live_log - Reentry info: Passing geodetic state below 149.000000km to sesam: State: system= 235102
+epoch= 2024-12-25T06:26:31
+elements= 126.495950
+-36.536165
+-69.663979
+7.540607
+-0.103179
+41.068362
+2026-08-04 21:17:27,359 - INFO - sara_live_log - Reentry info: Using static environment from CSV file F:\\TOOLS\\SARA\\REENTRY/data/StaticEnvironmentData.csv.
+2026-08-04 21:17:27,359 - INFO - sara_live_log - Reentry info: SESAM initialisation DONE.
+2026-08-04 21:17:27,359 - INFO - sara_live_log - Reentry info: SESAM propagation started
+2026-08-04 21:17:27,359 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 641385a0-5f83-450a-a820-eea5ec3721e1.
+2026-08-04 21:17:27,359 - INFO - sara_live_log - Reentry info: EVENT area 641385a0-5f83-450a-a820-eea5ec3721e1 0.015000
+2026-08-04 21:17:27,359 - INFO - sara_live_log - Reentry info: EVENT start 641385a0-5f83-450a-a820-eea5ec3721e1 0.919650 0.015000 2024-12-25T06:26:31
+2026-08-04 21:17:27,388 - INFO - sara_live_log - Reentry info: Using static environment from CSV file F:\\TOOLS\\SARA\\REENTRY/data/StaticEnvironmentData.csv.
+2026-08-04 21:17:27,388 - INFO - sara_live_log - Reentry info: SESAM initialisation DONE.
+2026-08-04 21:17:27,388 - INFO - sara_live_log - Reentry info: SESAM propagation started
+2026-08-04 21:17:27,388 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 641385a0-5f83-450a-a820-eea5ec3721e1.
+2026-08-04 21:17:27,388 - INFO - sara_live_log - Reentry info: EVENT area 641385a0-5f83-450a-a820-eea5ec3721e1 0.015000
+2026-08-04 21:17:27,388 - INFO - sara_live_log - Reentry info: EVENT start 641385a0-5f83-450a-a820-eea5ec3721e1 0.919650 0.015000 2024-12-25T06:26:31
+2026-08-04 21:17:27,918 - INFO - sara_live_log - Reentry info: Object 641385a0-5f83-450a-a820-eea5ec3721e1 demised.
+2026-08-04 21:17:27,918 - INFO - sara_live_log - Reentry info: EVENT object 641385a0-5f83-450a-a820-eea5ec3721e1 demise
+2026-08-04 21:17:27,918 - INFO - sara_live_log - Reentry info: Object 641385a0-5f83-450a-a820-eea5ec3721e1 reached end of life.
+2026-08-04 21:17:27,919 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.Structure.641385a0-5f83-450a-a820-eea5ec3721e1_Trajectory.txt
+2026-08-04 21:17:27,919 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Structure.641385a0-5f83-450a-a820-eea5ec3721e1.gnu
+2026-08-04 21:17:27,938 - INFO - sara_live_log - Reentry info: Object 641385a0-5f83-450a-a820-eea5ec3721e1 demised.
+2026-08-04 21:17:27,938 - INFO - sara_live_log - Reentry info: EVENT object 641385a0-5f83-450a-a820-eea5ec3721e1 demise
+2026-08-04 21:17:27,938 - INFO - sara_live_log - Reentry info: Object 641385a0-5f83-450a-a820-eea5ec3721e1 reached end of life.
+2026-08-04 21:17:27,941 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.Structure.641385a0-5f83-450a-a820-eea5ec3721e1_Trajectory.txt
+2026-08-04 21:17:27,941 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Structure.641385a0-5f83-450a-a820-eea5ec3721e1.gnu
+2026-08-04 21:17:27,941 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.Structure.641385a0-5f83-450a-a820-eea5ec3721e1_AeroThermalHistory.txt
+2026-08-04 21:17:27,942 - INFO - sara_live_log - Reentry info: EVENT end 641385a0-5f83-450a-a820-eea5ec3721e1 0.708450
+2026-08-04 21:17:27,942 - INFO - sara_live_log - Reentry info: Adding 12 new fragments to fragmentList.
+2026-08-04 21:17:27,942 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID be7c5bf2-c0a2-44f3-bb33-d90404150716.
+2026-08-04 21:17:27,943 - INFO - sara_live_log - Reentry info: EVENT area be7c5bf2-c0a2-44f3-bb33-d90404150716 0.000363
+2026-08-04 21:17:27,943 - INFO - sara_live_log - Reentry info: EVENT start be7c5bf2-c0a2-44f3-bb33-d90404150716 0.089000 0.000363 2024-12-25T06:53:57
+2026-08-04 21:17:28,034 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.Structure.641385a0-5f83-450a-a820-eea5ec3721e1_AeroThermalHistory.txt
+2026-08-04 21:17:28,034 - INFO - sara_live_log - Reentry info: EVENT end 641385a0-5f83-450a-a820-eea5ec3721e1 0.708450
+2026-08-04 21:17:28,034 - INFO - sara_live_log - Reentry info: Adding 12 new fragments to fragmentList.
+2026-08-04 21:17:28,034 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID be7c5bf2-c0a2-44f3-bb33-d90404150716.
+2026-08-04 21:17:28,036 - INFO - sara_live_log - Reentry info: EVENT area be7c5bf2-c0a2-44f3-bb33-d90404150716 0.000363
+2026-08-04 21:17:28,036 - INFO - sara_live_log - Reentry info: EVENT start be7c5bf2-c0a2-44f3-bb33-d90404150716 0.089000 0.000363 2024-12-25T06:53:57
+2026-08-04 21:17:28,036 - INFO - sara_live_log - Reentry info: Object be7c5bf2-c0a2-44f3-bb33-d90404150716 demised.
+2026-08-04 21:17:28,036 - INFO - sara_live_log - Reentry info: EVENT object be7c5bf2-c0a2-44f3-bb33-d90404150716 demise
+2026-08-04 21:17:28,036 - INFO - sara_live_log - Reentry info: Fragment be7c5bf2-c0a2-44f3-bb33-d90404150716 reached end of life because uncritical.
+2026-08-04 21:17:28,036 - INFO - sara_live_log - Reentry info: Object be7c5bf2-c0a2-44f3-bb33-d90404150716 reached end of life.
+2026-08-04 21:17:28,037 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.Antenna.be7c5bf2-c0a2-44f3-bb33-d90404150716_Trajectory.txt
+2026-08-04 21:17:28,037 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Antenna.be7c5bf2-c0a2-44f3-bb33-d90404150716.gnu
+2026-08-04 21:17:28,037 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.Antenna.be7c5bf2-c0a2-44f3-bb33-d90404150716_AeroThermalHistory.txt
+2026-08-04 21:17:28,037 - INFO - sara_live_log - Reentry info: EVENT end be7c5bf2-c0a2-44f3-bb33-d90404150716 0.000000
+2026-08-04 21:17:28,037 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,037 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 7cd7767b-ebe1-4361-a403-3e94664c9816.
+2026-08-04 21:17:28,037 - INFO - sara_live_log - Reentry info: EVENT area 7cd7767b-ebe1-4361-a403-3e94664c9816 0.005733
+2026-08-04 21:17:28,038 - INFO - sara_live_log - Reentry info: EVENT start 7cd7767b-ebe1-4361-a403-3e94664c9816 0.196000 0.005733 2024-12-25T06:53:57
+2026-08-04 21:17:28,038 - INFO - sara_live_log - Reentry info: Object 7cd7767b-ebe1-4361-a403-3e94664c9816 demised.
+2026-08-04 21:17:28,038 - INFO - sara_live_log - Reentry info: EVENT object 7cd7767b-ebe1-4361-a403-3e94664c9816 demise
+2026-08-04 21:17:28,038 - INFO - sara_live_log - Reentry info: Fragment 7cd7767b-ebe1-4361-a403-3e94664c9816 reached end of life because uncritical.
+2026-08-04 21:17:28,038 - INFO - sara_live_log - Reentry info: Object 7cd7767b-ebe1-4361-a403-3e94664c9816 reached end of life.
+2026-08-04 21:17:28,039 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.ADCS.7cd7767b-ebe1-4361-a403-3e94664c9816_Trajectory.txt
+2026-08-04 21:17:28,039 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.ADCS.7cd7767b-ebe1-4361-a403-3e94664c9816.gnu
+2026-08-04 21:17:28,039 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.ADCS.7cd7767b-ebe1-4361-a403-3e94664c9816_AeroThermalHistory.txt
+2026-08-04 21:17:28,040 - INFO - sara_live_log - Reentry info: EVENT end 7cd7767b-ebe1-4361-a403-3e94664c9816 0.000000
+2026-08-04 21:17:28,040 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,040 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8.
+2026-08-04 21:17:28,040 - INFO - sara_live_log - Reentry info: EVENT area 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 0.004779
+2026-08-04 21:17:28,041 - INFO - sara_live_log - Reentry info: EVENT start 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 0.050000 0.004779 2024-12-25T06:53:57
+2026-08-04 21:17:28,064 - INFO - sara_live_log - Reentry info: Object be7c5bf2-c0a2-44f3-bb33-d90404150716 demised.
+2026-08-04 21:17:28,064 - INFO - sara_live_log - Reentry info: EVENT object be7c5bf2-c0a2-44f3-bb33-d90404150716 demise
+2026-08-04 21:17:28,065 - INFO - sara_live_log - Reentry info: Fragment be7c5bf2-c0a2-44f3-bb33-d90404150716 reached end of life because uncritical.
+2026-08-04 21:17:28,065 - INFO - sara_live_log - Reentry info: Object be7c5bf2-c0a2-44f3-bb33-d90404150716 reached end of life.
+2026-08-04 21:17:28,065 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.Antenna.be7c5bf2-c0a2-44f3-bb33-d90404150716_Trajectory.txt
+2026-08-04 21:17:28,065 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Antenna.be7c5bf2-c0a2-44f3-bb33-d90404150716.gnu
+2026-08-04 21:17:28,065 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.Antenna.be7c5bf2-c0a2-44f3-bb33-d90404150716_AeroThermalHistory.txt
+2026-08-04 21:17:28,066 - INFO - sara_live_log - Reentry info: EVENT end be7c5bf2-c0a2-44f3-bb33-d90404150716 0.000000
+2026-08-04 21:17:28,066 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,066 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 7cd7767b-ebe1-4361-a403-3e94664c9816.
+2026-08-04 21:17:28,066 - INFO - sara_live_log - Reentry info: EVENT area 7cd7767b-ebe1-4361-a403-3e94664c9816 0.005733
+2026-08-04 21:17:28,066 - INFO - sara_live_log - Reentry info: EVENT start 7cd7767b-ebe1-4361-a403-3e94664c9816 0.196000 0.005733 2024-12-25T06:53:57
+2026-08-04 21:17:28,067 - INFO - sara_live_log - Reentry info: Object 7cd7767b-ebe1-4361-a403-3e94664c9816 demised.
+2026-08-04 21:17:28,067 - INFO - sara_live_log - Reentry info: EVENT object 7cd7767b-ebe1-4361-a403-3e94664c9816 demise
+2026-08-04 21:17:28,067 - INFO - sara_live_log - Reentry info: Fragment 7cd7767b-ebe1-4361-a403-3e94664c9816 reached end of life because uncritical.
+2026-08-04 21:17:28,067 - INFO - sara_live_log - Reentry info: Object 7cd7767b-ebe1-4361-a403-3e94664c9816 reached end of life.
+2026-08-04 21:17:28,067 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.ADCS.7cd7767b-ebe1-4361-a403-3e94664c9816_Trajectory.txt
+2026-08-04 21:17:28,068 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.ADCS.7cd7767b-ebe1-4361-a403-3e94664c9816.gnu
+2026-08-04 21:17:28,068 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.ADCS.7cd7767b-ebe1-4361-a403-3e94664c9816_AeroThermalHistory.txt
+2026-08-04 21:17:28,068 - INFO - sara_live_log - Reentry info: EVENT end 7cd7767b-ebe1-4361-a403-3e94664c9816 0.000000
+2026-08-04 21:17:28,068 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,068 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8.
+2026-08-04 21:17:28,069 - INFO - sara_live_log - Reentry info: EVENT area 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 0.004779
+2026-08-04 21:17:28,069 - INFO - sara_live_log - Reentry info: EVENT start 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 0.050000 0.004779 2024-12-25T06:53:57
+2026-08-04 21:17:28,069 - INFO - sara_live_log - Reentry info: Object 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 demised.
+2026-08-04 21:17:28,069 - INFO - sara_live_log - Reentry info: EVENT object 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 demise
+2026-08-04 21:17:28,069 - INFO - sara_live_log - Reentry info: Fragment 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 reached end of life because uncritical.
+2026-08-04 21:17:28,070 - INFO - sara_live_log - Reentry info: Object 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 reached end of life.
+2026-08-04 21:17:28,070 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.EPS.7cf9a9a5-596a-4c61-8c9d-53a4c37759a8_Trajectory.txt
+2026-08-04 21:17:28,070 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.EPS.7cf9a9a5-596a-4c61-8c9d-53a4c37759a8.gnu
+2026-08-04 21:17:28,070 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.EPS.7cf9a9a5-596a-4c61-8c9d-53a4c37759a8_AeroThermalHistory.txt
+2026-08-04 21:17:28,070 - INFO - sara_live_log - Reentry info: EVENT end 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 0.000000
+2026-08-04 21:17:28,070 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,070 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID b4eebe26-0f45-4dee-903e-d1fdc93bd52e.
+2026-08-04 21:17:28,072 - INFO - sara_live_log - Reentry info: EVENT area b4eebe26-0f45-4dee-903e-d1fdc93bd52e 0.005440
+2026-08-04 21:17:28,072 - INFO - sara_live_log - Reentry info: EVENT start b4eebe26-0f45-4dee-903e-d1fdc93bd52e 0.094000 0.005440 2024-12-25T06:53:57
+2026-08-04 21:17:28,163 - INFO - sara_live_log - Reentry info: Object 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 demised.
+2026-08-04 21:17:28,163 - INFO - sara_live_log - Reentry info: EVENT object 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 demise
+2026-08-04 21:17:28,163 - INFO - sara_live_log - Reentry info: Fragment 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 reached end of life because uncritical.
+2026-08-04 21:17:28,163 - INFO - sara_live_log - Reentry info: Object 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 reached end of life.
+2026-08-04 21:17:28,164 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.EPS.7cf9a9a5-596a-4c61-8c9d-53a4c37759a8_Trajectory.txt
+2026-08-04 21:17:28,164 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.EPS.7cf9a9a5-596a-4c61-8c9d-53a4c37759a8.gnu
+2026-08-04 21:17:28,164 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.EPS.7cf9a9a5-596a-4c61-8c9d-53a4c37759a8_AeroThermalHistory.txt
+2026-08-04 21:17:28,164 - INFO - sara_live_log - Reentry info: EVENT end 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 0.000000
+2026-08-04 21:17:28,164 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,164 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID b4eebe26-0f45-4dee-903e-d1fdc93bd52e.
+2026-08-04 21:17:28,165 - INFO - sara_live_log - Reentry info: EVENT area b4eebe26-0f45-4dee-903e-d1fdc93bd52e 0.005440
+2026-08-04 21:17:28,165 - INFO - sara_live_log - Reentry info: EVENT start b4eebe26-0f45-4dee-903e-d1fdc93bd52e 0.094000 0.005440 2024-12-25T06:53:57
+2026-08-04 21:17:28,165 - INFO - sara_live_log - Reentry info: Object b4eebe26-0f45-4dee-903e-d1fdc93bd52e demised.
+2026-08-04 21:17:28,165 - INFO - sara_live_log - Reentry info: EVENT object b4eebe26-0f45-4dee-903e-d1fdc93bd52e demise
+2026-08-04 21:17:28,165 - INFO - sara_live_log - Reentry info: Fragment b4eebe26-0f45-4dee-903e-d1fdc93bd52e reached end of life because uncritical.
+2026-08-04 21:17:28,166 - INFO - sara_live_log - Reentry info: Object b4eebe26-0f45-4dee-903e-d1fdc93bd52e reached end of life.
+2026-08-04 21:17:28,166 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.OBC.b4eebe26-0f45-4dee-903e-d1fdc93bd52e_Trajectory.txt
+2026-08-04 21:17:28,166 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.OBC.b4eebe26-0f45-4dee-903e-d1fdc93bd52e.gnu
+2026-08-04 21:17:28,166 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.OBC.b4eebe26-0f45-4dee-903e-d1fdc93bd52e_AeroThermalHistory.txt
+2026-08-04 21:17:28,166 - INFO - sara_live_log - Reentry info: EVENT end b4eebe26-0f45-4dee-903e-d1fdc93bd52e 0.000000
+2026-08-04 21:17:28,167 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,167 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID f03116e5-b2c9-4716-881e-afee90665229.
+2026-08-04 21:17:28,167 - INFO - sara_live_log - Reentry info: EVENT area f03116e5-b2c9-4716-881e-afee90665229 0.005013
+2026-08-04 21:17:28,167 - INFO - sara_live_log - Reentry info: EVENT start f03116e5-b2c9-4716-881e-afee90665229 0.094000 0.005013 2024-12-25T06:53:57
+2026-08-04 21:17:28,168 - INFO - sara_live_log - Reentry info: Object f03116e5-b2c9-4716-881e-afee90665229 demised.
+2026-08-04 21:17:28,168 - INFO - sara_live_log - Reentry info: EVENT object f03116e5-b2c9-4716-881e-afee90665229 demise
+2026-08-04 21:17:28,168 - INFO - sara_live_log - Reentry info: Fragment f03116e5-b2c9-4716-881e-afee90665229 reached end of life because uncritical.
+2026-08-04 21:17:28,168 - INFO - sara_live_log - Reentry info: Object f03116e5-b2c9-4716-881e-afee90665229 reached end of life.
+2026-08-04 21:17:28,168 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.COMM.f03116e5-b2c9-4716-881e-afee90665229_Trajectory.txt
+2026-08-04 21:17:28,168 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.COMM.f03116e5-b2c9-4716-881e-afee90665229.gnu
+2026-08-04 21:17:28,168 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.COMM.f03116e5-b2c9-4716-881e-afee90665229_AeroThermalHistory.txt
+2026-08-04 21:17:28,169 - INFO - sara_live_log - Reentry info: EVENT end f03116e5-b2c9-4716-881e-afee90665229 0.000000
+2026-08-04 21:17:28,169 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,169 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID b51424f8-fd76-4e5f-9316-42778b83ca39.
+2026-08-04 21:17:28,169 - INFO - sara_live_log - Reentry info: EVENT area b51424f8-fd76-4e5f-9316-42778b83ca39 0.007461
+2026-08-04 21:17:28,169 - INFO - sara_live_log - Reentry info: EVENT start b51424f8-fd76-4e5f-9316-42778b83ca39 0.135500 0.007461 2024-12-25T06:53:57
+2026-08-04 21:17:28,199 - INFO - sara_live_log - Reentry info: Object b4eebe26-0f45-4dee-903e-d1fdc93bd52e demised.
+2026-08-04 21:17:28,199 - INFO - sara_live_log - Reentry info: EVENT object b4eebe26-0f45-4dee-903e-d1fdc93bd52e demise
+2026-08-04 21:17:28,199 - INFO - sara_live_log - Reentry info: Fragment b4eebe26-0f45-4dee-903e-d1fdc93bd52e reached end of life because uncritical.
+2026-08-04 21:17:28,199 - INFO - sara_live_log - Reentry info: Object b4eebe26-0f45-4dee-903e-d1fdc93bd52e reached end of life.
+2026-08-04 21:17:28,199 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.OBC.b4eebe26-0f45-4dee-903e-d1fdc93bd52e_Trajectory.txt
+2026-08-04 21:17:28,199 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.OBC.b4eebe26-0f45-4dee-903e-d1fdc93bd52e.gnu
+2026-08-04 21:17:28,199 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.OBC.b4eebe26-0f45-4dee-903e-d1fdc93bd52e_AeroThermalHistory.txt
+2026-08-04 21:17:28,200 - INFO - sara_live_log - Reentry info: EVENT end b4eebe26-0f45-4dee-903e-d1fdc93bd52e 0.000000
+2026-08-04 21:17:28,200 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,200 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID f03116e5-b2c9-4716-881e-afee90665229.
+2026-08-04 21:17:28,200 - INFO - sara_live_log - Reentry info: EVENT area f03116e5-b2c9-4716-881e-afee90665229 0.005013
+2026-08-04 21:17:28,200 - INFO - sara_live_log - Reentry info: EVENT start f03116e5-b2c9-4716-881e-afee90665229 0.094000 0.005013 2024-12-25T06:53:57
+2026-08-04 21:17:28,201 - INFO - sara_live_log - Reentry info: Object f03116e5-b2c9-4716-881e-afee90665229 demised.
+2026-08-04 21:17:28,201 - INFO - sara_live_log - Reentry info: EVENT object f03116e5-b2c9-4716-881e-afee90665229 demise
+2026-08-04 21:17:28,201 - INFO - sara_live_log - Reentry info: Fragment f03116e5-b2c9-4716-881e-afee90665229 reached end of life because uncritical.
+2026-08-04 21:17:28,201 - INFO - sara_live_log - Reentry info: Object f03116e5-b2c9-4716-881e-afee90665229 reached end of life.
+2026-08-04 21:17:28,201 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.COMM.f03116e5-b2c9-4716-881e-afee90665229_Trajectory.txt
+2026-08-04 21:17:28,201 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.COMM.f03116e5-b2c9-4716-881e-afee90665229.gnu
+2026-08-04 21:17:28,203 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.COMM.f03116e5-b2c9-4716-881e-afee90665229_AeroThermalHistory.txt
+2026-08-04 21:17:28,203 - INFO - sara_live_log - Reentry info: EVENT end f03116e5-b2c9-4716-881e-afee90665229 0.000000
+2026-08-04 21:17:28,203 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,203 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID b51424f8-fd76-4e5f-9316-42778b83ca39.
+2026-08-04 21:17:28,203 - INFO - sara_live_log - Reentry info: EVENT area b51424f8-fd76-4e5f-9316-42778b83ca39 0.007461
+2026-08-04 21:17:28,204 - INFO - sara_live_log - Reentry info: EVENT start b51424f8-fd76-4e5f-9316-42778b83ca39 0.135500 0.007461 2024-12-25T06:53:57
+2026-08-04 21:17:28,436 - WARNING - sara_live_log - Reentry warning: The altitude is below the lowest value in the data. Therefore
+the lowest altitude for which data are given is used (altitude = 0.000000 m).
+2026-08-04 21:17:28,437 - INFO - sara_live_log - Reentry This message is shown only once.
+2026-08-04 21:17:28,438 - INFO - sara_live_log - Reentry info: Fragment b51424f8-fd76-4e5f-9316-42778b83ca39 reached end of life because of ground impact.
+2026-08-04 21:17:28,439 - INFO - sara_live_log - Reentry info: Object b51424f8-fd76-4e5f-9316-42778b83ca39 reached end of life.
+2026-08-04 21:17:28,439 - INFO - sara_live_log - Reentry info: EVENT fragment b51424f8-fd76-4e5f-9316-42778b83ca39 impact
+2026-08-04 21:17:28,439 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.PAYLOAD.b51424f8-fd76-4e5f-9316-42778b83ca39_Trajectory.txt
+2026-08-04 21:17:28,439 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PAYLOAD.b51424f8-fd76-4e5f-9316-42778b83ca39.gnu
+2026-08-04 21:17:28,439 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.PAYLOAD.b51424f8-fd76-4e5f-9316-42778b83ca39_AeroThermalHistory.txt
+2026-08-04 21:17:28,439 - INFO - sara_live_log - Reentry info: EVENT end b51424f8-fd76-4e5f-9316-42778b83ca39 0.135500
+2026-08-04 21:17:28,439 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID cb109bb6-e00d-4d1e-88f9-d77e3396d29e.
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: EVENT area cb109bb6-e00d-4d1e-88f9-d77e3396d29e 0.005200
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: EVENT start cb109bb6-e00d-4d1e-88f9-d77e3396d29e 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: Object cb109bb6-e00d-4d1e-88f9-d77e3396d29e demised.
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: EVENT object cb109bb6-e00d-4d1e-88f9-d77e3396d29e demise
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: Fragment cb109bb6-e00d-4d1e-88f9-d77e3396d29e reached end of life because uncritical.
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: Object cb109bb6-e00d-4d1e-88f9-d77e3396d29e reached end of life.
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL_+X.cb109bb6-e00d-4d1e-88f9-d77e3396d29e_Trajectory.txt
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL_+X.cb109bb6-e00d-4d1e-88f9-d77e3396d29e.gnu
+2026-08-04 21:17:28,441 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL_+X.cb109bb6-e00d-4d1e-88f9-d77e3396d29e_AeroThermalHistory.txt
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: EVENT end cb109bb6-e00d-4d1e-88f9-d77e3396d29e 0.000000
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 14293697-d071-44f0-a193-a06ad36408cf.
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: EVENT area 14293697-d071-44f0-a193-a06ad36408cf 0.005200
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: EVENT start 14293697-d071-44f0-a193-a06ad36408cf 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: Object 14293697-d071-44f0-a193-a06ad36408cf demised.
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: EVENT object 14293697-d071-44f0-a193-a06ad36408cf demise
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: Fragment 14293697-d071-44f0-a193-a06ad36408cf reached end of life because uncritical.
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: Object 14293697-d071-44f0-a193-a06ad36408cf reached end of life.
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL_-X.14293697-d071-44f0-a193-a06ad36408cf_Trajectory.txt
+2026-08-04 21:17:28,443 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL_-X.14293697-d071-44f0-a193-a06ad36408cf.gnu
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL_-X.14293697-d071-44f0-a193-a06ad36408cf_AeroThermalHistory.txt
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: EVENT end 14293697-d071-44f0-a193-a06ad36408cf 0.000000
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 909d6c11-5860-4faf-95ad-9caca83cbaab.
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: EVENT area 909d6c11-5860-4faf-95ad-9caca83cbaab 0.005200
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: EVENT start 909d6c11-5860-4faf-95ad-9caca83cbaab 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: Object 909d6c11-5860-4faf-95ad-9caca83cbaab demised.
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: EVENT object 909d6c11-5860-4faf-95ad-9caca83cbaab demise
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: Fragment 909d6c11-5860-4faf-95ad-9caca83cbaab reached end of life because uncritical.
+2026-08-04 21:17:28,445 - INFO - sara_live_log - Reentry info: Object 909d6c11-5860-4faf-95ad-9caca83cbaab reached end of life.
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL+Y.909d6c11-5860-4faf-95ad-9caca83cbaab_Trajectory.txt
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL+Y.909d6c11-5860-4faf-95ad-9caca83cbaab.gnu
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL+Y.909d6c11-5860-4faf-95ad-9caca83cbaab_AeroThermalHistory.txt
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: EVENT end 909d6c11-5860-4faf-95ad-9caca83cbaab 0.000000
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 977a7ad8-0dc4-41a0-8565-8459b641d630.
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: EVENT area 977a7ad8-0dc4-41a0-8565-8459b641d630 0.005200
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: EVENT start 977a7ad8-0dc4-41a0-8565-8459b641d630 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: Object 977a7ad8-0dc4-41a0-8565-8459b641d630 demised.
+2026-08-04 21:17:28,447 - INFO - sara_live_log - Reentry info: EVENT object 977a7ad8-0dc4-41a0-8565-8459b641d630 demise
+2026-08-04 21:17:28,449 - INFO - sara_live_log - Reentry info: Fragment 977a7ad8-0dc4-41a0-8565-8459b641d630 reached end of life because uncritical.
+2026-08-04 21:17:28,449 - INFO - sara_live_log - Reentry info: Object 977a7ad8-0dc4-41a0-8565-8459b641d630 reached end of life.
+2026-08-04 21:17:28,449 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL-Y.977a7ad8-0dc4-41a0-8565-8459b641d630_Trajectory.txt
+2026-08-04 21:17:28,449 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL-Y.977a7ad8-0dc4-41a0-8565-8459b641d630.gnu
+2026-08-04 21:17:28,451 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL-Y.977a7ad8-0dc4-41a0-8565-8459b641d630_AeroThermalHistory.txt
+2026-08-04 21:17:28,451 - INFO - sara_live_log - Reentry info: EVENT end 977a7ad8-0dc4-41a0-8565-8459b641d630 0.000000
+2026-08-04 21:17:28,453 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,453 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 848e52c9-2076-4c7c-8aff-e4e7354094ec.
+2026-08-04 21:17:28,454 - INFO - sara_live_log - Reentry info: EVENT area 848e52c9-2076-4c7c-8aff-e4e7354094ec 0.005200
+2026-08-04 21:17:28,454 - INFO - sara_live_log - Reentry info: EVENT start 848e52c9-2076-4c7c-8aff-e4e7354094ec 0.008300 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,455 - INFO - sara_live_log - Reentry info: Object 848e52c9-2076-4c7c-8aff-e4e7354094ec demised.
+2026-08-04 21:17:28,456 - INFO - sara_live_log - Reentry info: EVENT object 848e52c9-2076-4c7c-8aff-e4e7354094ec demise
+2026-08-04 21:17:28,456 - INFO - sara_live_log - Reentry info: Fragment 848e52c9-2076-4c7c-8aff-e4e7354094ec reached end of life because uncritical.
+2026-08-04 21:17:28,456 - INFO - sara_live_log - Reentry info: Object 848e52c9-2076-4c7c-8aff-e4e7354094ec reached end of life.
+2026-08-04 21:17:28,456 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL_+Z.848e52c9-2076-4c7c-8aff-e4e7354094ec_Trajectory.txt
+2026-08-04 21:17:28,467 - WARNING - sara_live_log - Reentry warning: The altitude is below the lowest value in the data. Therefore
+the lowest altitude for which data are given is used (altitude = 0.000000 m).
+2026-08-04 21:17:28,467 - INFO - sara_live_log - Reentry This message is shown only once.
+2026-08-04 21:17:28,467 - INFO - sara_live_log - Reentry info: Fragment b51424f8-fd76-4e5f-9316-42778b83ca39 reached end of life because of ground impact.
+2026-08-04 21:17:28,467 - INFO - sara_live_log - Reentry info: Object b51424f8-fd76-4e5f-9316-42778b83ca39 reached end of life.
+2026-08-04 21:17:28,467 - INFO - sara_live_log - Reentry info: EVENT fragment b51424f8-fd76-4e5f-9316-42778b83ca39 impact
+2026-08-04 21:17:28,467 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.PAYLOAD.b51424f8-fd76-4e5f-9316-42778b83ca39_Trajectory.txt
+2026-08-04 21:17:28,467 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PAYLOAD.b51424f8-fd76-4e5f-9316-42778b83ca39.gnu
+2026-08-04 21:17:28,467 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.PAYLOAD.b51424f8-fd76-4e5f-9316-42778b83ca39_AeroThermalHistory.txt
+2026-08-04 21:17:28,467 - INFO - sara_live_log - Reentry info: EVENT end b51424f8-fd76-4e5f-9316-42778b83ca39 0.135500
+2026-08-04 21:17:28,469 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,469 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID cb109bb6-e00d-4d1e-88f9-d77e3396d29e.
+2026-08-04 21:17:28,469 - INFO - sara_live_log - Reentry info: EVENT area cb109bb6-e00d-4d1e-88f9-d77e3396d29e 0.005200
+2026-08-04 21:17:28,469 - INFO - sara_live_log - Reentry info: EVENT start cb109bb6-e00d-4d1e-88f9-d77e3396d29e 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,469 - INFO - sara_live_log - Reentry info: Object cb109bb6-e00d-4d1e-88f9-d77e3396d29e demised.
+2026-08-04 21:17:28,470 - INFO - sara_live_log - Reentry info: EVENT object cb109bb6-e00d-4d1e-88f9-d77e3396d29e demise
+2026-08-04 21:17:28,470 - INFO - sara_live_log - Reentry info: Fragment cb109bb6-e00d-4d1e-88f9-d77e3396d29e reached end of life because uncritical.
+2026-08-04 21:17:28,470 - INFO - sara_live_log - Reentry info: Object cb109bb6-e00d-4d1e-88f9-d77e3396d29e reached end of life.
+2026-08-04 21:17:28,471 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL_+X.cb109bb6-e00d-4d1e-88f9-d77e3396d29e_Trajectory.txt
+2026-08-04 21:17:28,471 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL_+X.cb109bb6-e00d-4d1e-88f9-d77e3396d29e.gnu
+2026-08-04 21:17:28,472 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL_+X.cb109bb6-e00d-4d1e-88f9-d77e3396d29e_AeroThermalHistory.txt
+2026-08-04 21:17:28,472 - INFO - sara_live_log - Reentry info: EVENT end cb109bb6-e00d-4d1e-88f9-d77e3396d29e 0.000000
+2026-08-04 21:17:28,472 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,472 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 14293697-d071-44f0-a193-a06ad36408cf.
+2026-08-04 21:17:28,472 - INFO - sara_live_log - Reentry info: EVENT area 14293697-d071-44f0-a193-a06ad36408cf 0.005200
+2026-08-04 21:17:28,472 - INFO - sara_live_log - Reentry info: EVENT start 14293697-d071-44f0-a193-a06ad36408cf 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,472 - INFO - sara_live_log - Reentry info: Object 14293697-d071-44f0-a193-a06ad36408cf demised.
+2026-08-04 21:17:28,472 - INFO - sara_live_log - Reentry info: EVENT object 14293697-d071-44f0-a193-a06ad36408cf demise
+2026-08-04 21:17:28,474 - INFO - sara_live_log - Reentry info: Fragment 14293697-d071-44f0-a193-a06ad36408cf reached end of life because uncritical.
+2026-08-04 21:17:28,474 - INFO - sara_live_log - Reentry info: Object 14293697-d071-44f0-a193-a06ad36408cf reached end of life.
+2026-08-04 21:17:28,474 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL_-X.14293697-d071-44f0-a193-a06ad36408cf_Trajectory.txt
+2026-08-04 21:17:28,474 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL_-X.14293697-d071-44f0-a193-a06ad36408cf.gnu
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL_-X.14293697-d071-44f0-a193-a06ad36408cf_AeroThermalHistory.txt
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: EVENT end 14293697-d071-44f0-a193-a06ad36408cf 0.000000
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 909d6c11-5860-4faf-95ad-9caca83cbaab.
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: EVENT area 909d6c11-5860-4faf-95ad-9caca83cbaab 0.005200
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: EVENT start 909d6c11-5860-4faf-95ad-9caca83cbaab 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: Object 909d6c11-5860-4faf-95ad-9caca83cbaab demised.
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: EVENT object 909d6c11-5860-4faf-95ad-9caca83cbaab demise
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: Fragment 909d6c11-5860-4faf-95ad-9caca83cbaab reached end of life because uncritical.
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: Object 909d6c11-5860-4faf-95ad-9caca83cbaab reached end of life.
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL+Y.909d6c11-5860-4faf-95ad-9caca83cbaab_Trajectory.txt
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL+Y.909d6c11-5860-4faf-95ad-9caca83cbaab.gnu
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL+Y.909d6c11-5860-4faf-95ad-9caca83cbaab_AeroThermalHistory.txt
+2026-08-04 21:17:28,475 - INFO - sara_live_log - Reentry info: EVENT end 909d6c11-5860-4faf-95ad-9caca83cbaab 0.000000
+2026-08-04 21:17:28,477 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,477 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 977a7ad8-0dc4-41a0-8565-8459b641d630.
+2026-08-04 21:17:28,477 - INFO - sara_live_log - Reentry info: EVENT area 977a7ad8-0dc4-41a0-8565-8459b641d630 0.005200
+2026-08-04 21:17:28,477 - INFO - sara_live_log - Reentry info: EVENT start 977a7ad8-0dc4-41a0-8565-8459b641d630 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,477 - INFO - sara_live_log - Reentry info: Object 977a7ad8-0dc4-41a0-8565-8459b641d630 demised.
+2026-08-04 21:17:28,477 - INFO - sara_live_log - Reentry info: EVENT object 977a7ad8-0dc4-41a0-8565-8459b641d630 demise
+2026-08-04 21:17:28,477 - INFO - sara_live_log - Reentry info: Fragment 977a7ad8-0dc4-41a0-8565-8459b641d630 reached end of life because uncritical.
+2026-08-04 21:17:28,477 - INFO - sara_live_log - Reentry info: Object 977a7ad8-0dc4-41a0-8565-8459b641d630 reached end of life.
+2026-08-04 21:17:28,477 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL-Y.977a7ad8-0dc4-41a0-8565-8459b641d630_Trajectory.txt
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL-Y.977a7ad8-0dc4-41a0-8565-8459b641d630.gnu
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL-Y.977a7ad8-0dc4-41a0-8565-8459b641d630_AeroThermalHistory.txt
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: EVENT end 977a7ad8-0dc4-41a0-8565-8459b641d630 0.000000
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 848e52c9-2076-4c7c-8aff-e4e7354094ec.
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: EVENT area 848e52c9-2076-4c7c-8aff-e4e7354094ec 0.005200
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: EVENT start 848e52c9-2076-4c7c-8aff-e4e7354094ec 0.008300 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: Object 848e52c9-2076-4c7c-8aff-e4e7354094ec demised.
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: EVENT object 848e52c9-2076-4c7c-8aff-e4e7354094ec demise
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: Fragment 848e52c9-2076-4c7c-8aff-e4e7354094ec reached end of life because uncritical.
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: Object 848e52c9-2076-4c7c-8aff-e4e7354094ec reached end of life.
+2026-08-04 21:17:28,480 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL_+Z.848e52c9-2076-4c7c-8aff-e4e7354094ec_Trajectory.txt
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL_+Z.848e52c9-2076-4c7c-8aff-e4e7354094ec.gnu
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL_+Z.848e52c9-2076-4c7c-8aff-e4e7354094ec_AeroThermalHistory.txt
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: EVENT end 848e52c9-2076-4c7c-8aff-e4e7354094ec 0.000000
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 8bc30e9f-23da-4053-94d7-a85ea5a2183e.
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: EVENT area 8bc30e9f-23da-4053-94d7-a85ea5a2183e 0.005200
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: EVENT start 8bc30e9f-23da-4053-94d7-a85ea5a2183e 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: Object 8bc30e9f-23da-4053-94d7-a85ea5a2183e demised.
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: EVENT object 8bc30e9f-23da-4053-94d7-a85ea5a2183e demise
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: Fragment 8bc30e9f-23da-4053-94d7-a85ea5a2183e reached end of life because uncritical.
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: Object 8bc30e9f-23da-4053-94d7-a85ea5a2183e reached end of life.
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL_-Z.8bc30e9f-23da-4053-94d7-a85ea5a2183e_Trajectory.txt
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL_-Z.8bc30e9f-23da-4053-94d7-a85ea5a2183e.gnu
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL_-Z.8bc30e9f-23da-4053-94d7-a85ea5a2183e_AeroThermalHistory.txt
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: EVENT end 8bc30e9f-23da-4053-94d7-a85ea5a2183e 0.000000
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: Writing 641385a0-5f83-450a-a820-eea5ec3721e1 to XML
+2026-08-04 21:17:28,482 - INFO - sara_live_log - Reentry info: Writing be7c5bf2-c0a2-44f3-bb33-d90404150716 to XML
+2026-08-04 21:17:28,486 - INFO - sara_live_log - Reentry info: Writing 7cd7767b-ebe1-4361-a403-3e94664c9816 to XML
+2026-08-04 21:17:28,486 - INFO - sara_live_log - Reentry info: Writing 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 to XML
+2026-08-04 21:17:28,486 - INFO - sara_live_log - Reentry info: Writing b4eebe26-0f45-4dee-903e-d1fdc93bd52e to XML
+2026-08-04 21:17:28,486 - INFO - sara_live_log - Reentry info: Writing f03116e5-b2c9-4716-881e-afee90665229 to XML
+2026-08-04 21:17:28,486 - INFO - sara_live_log - Reentry info: Writing b51424f8-fd76-4e5f-9316-42778b83ca39 to XML
+2026-08-04 21:17:28,487 - INFO - sara_live_log - Reentry info: Writing cb109bb6-e00d-4d1e-88f9-d77e3396d29e to XML
+2026-08-04 21:17:28,488 - INFO - sara_live_log - Reentry info: Writing 14293697-d071-44f0-a193-a06ad36408cf to XML
+2026-08-04 21:17:28,488 - INFO - sara_live_log - Reentry info: Writing 909d6c11-5860-4faf-95ad-9caca83cbaab to XML
+2026-08-04 21:17:28,489 - INFO - sara_live_log - Reentry info: Writing 977a7ad8-0dc4-41a0-8565-8459b641d630 to XML
+2026-08-04 21:17:28,491 - INFO - sara_live_log - Reentry info: Writing 848e52c9-2076-4c7c-8aff-e4e7354094ec to XML
+2026-08-04 21:17:28,491 - INFO - sara_live_log - Reentry info: Writing 8bc30e9f-23da-4053-94d7-a85ea5a2183e to XML
+2026-08-04 21:17:28,491 - INFO - sara_live_log - Reentry info: ImpactingFragmentXML::WriteXML Wrote PySara.ImpactingFragments.xml
+2026-08-04 21:17:28,571 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL_+Z.848e52c9-2076-4c7c-8aff-e4e7354094ec.gnu
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL_+Z.848e52c9-2076-4c7c-8aff-e4e7354094ec_AeroThermalHistory.txt
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: EVENT end 848e52c9-2076-4c7c-8aff-e4e7354094ec 0.000000
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: Starting propagation of Fragment with uniqueID 8bc30e9f-23da-4053-94d7-a85ea5a2183e.
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: EVENT area 8bc30e9f-23da-4053-94d7-a85ea5a2183e 0.005200
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: EVENT start 8bc30e9f-23da-4053-94d7-a85ea5a2183e 0.008330 0.005200 2024-12-25T06:53:57
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: Object 8bc30e9f-23da-4053-94d7-a85ea5a2183e demised.
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: EVENT object 8bc30e9f-23da-4053-94d7-a85ea5a2183e demise
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: Fragment 8bc30e9f-23da-4053-94d7-a85ea5a2183e reached end of life because uncritical.
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: Object 8bc30e9f-23da-4053-94d7-a85ea5a2183e reached end of life.
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: ObjectTrajectory Written: PySara.SOLAR_PANEL_-Z.8bc30e9f-23da-4053-94d7-a85ea5a2183e_Trajectory.txt
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.SOLAR_PANEL_-Z.8bc30e9f-23da-4053-94d7-a85ea5a2183e.gnu
+2026-08-04 21:17:28,572 - INFO - sara_live_log - Reentry info: AeroThermalHistory Written: PySara.SOLAR_PANEL_-Z.8bc30e9f-23da-4053-94d7-a85ea5a2183e_AeroThermalHistory.txt
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: EVENT end 8bc30e9f-23da-4053-94d7-a85ea5a2183e 0.000000
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Adding 0 new fragments to fragmentList.
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing 641385a0-5f83-450a-a820-eea5ec3721e1 to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing be7c5bf2-c0a2-44f3-bb33-d90404150716 to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing 7cd7767b-ebe1-4361-a403-3e94664c9816 to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing 7cf9a9a5-596a-4c61-8c9d-53a4c37759a8 to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing b4eebe26-0f45-4dee-903e-d1fdc93bd52e to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing f03116e5-b2c9-4716-881e-afee90665229 to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing b51424f8-fd76-4e5f-9316-42778b83ca39 to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing cb109bb6-e00d-4d1e-88f9-d77e3396d29e to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing 14293697-d071-44f0-a193-a06ad36408cf to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing 909d6c11-5860-4faf-95ad-9caca83cbaab to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing 977a7ad8-0dc4-41a0-8565-8459b641d630 to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing 848e52c9-2076-4c7c-8aff-e4e7354094ec to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Writing 8bc30e9f-23da-4053-94d7-a85ea5a2183e to XML
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: ImpactingFragmentXML::WriteXML Wrote PySara.ImpactingFragments.xml
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateAllObjectsScript Wrote PySara.gnu
+2026-08-04 21:17:28,575 - INFO - sara_live_log - Reentry info: Preparing visibility maps...
+2026-08-04 21:17:28,578 - INFO - sara_live_log - Reentry info: Propagation Successful
+2026-08-04 21:17:28,605 - INFO - sara_live_log - Reentry info: GnuPlotGeneration::GenerateAllObjectsScript Wrote PySara.gnu
+2026-08-04 21:17:28,605 - INFO - sara_live_log - Reentry info: Preparing visibility maps...
+2026-08-04 21:17:28,605 - INFO - sara_live_log - Reentry info: Propagation Successful
+2026-08-04 21:17:41,411 - INFO - dmf.processes.SaraProcess - Finished sara process 6e4587f6-df88-4648-b150-c477df16b5ac
+2026-08-04 21:17:41,944 - INFO - dmf.processes.SaraProcess - Finished sara process 6372388c-bb87-48ec-bab3-78791bc22560
+2026-08-04 21:17:53,581 - INFO - dmf.workflows.DmfWorkflow - Workflow 2fdf9e33-9b7e-45b2-b340-f089b0c815ad finished
