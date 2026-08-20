@@ -1,0 +1,182 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##      
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #     
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######    
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #    
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#                                                                               
+#           ESA Debris Risk Assessment and Mitigation Analysis Tool             
+#                                                                               
+#             ---- DRAMA ( Re-entry Risk Analysis v 3.0.0 ) ---- 
+#                               ESA July 2024                   
+#                                                                               
+#               Detailed results log file -PySara.RiskResults.dat-
+#                           runID: PySara            
+#                   run date+time: 2026-08-20T14-49-12.403                          
+#_______________________________________________________________________________
+# 
+#
+# Run configuration
+# -----------------
+#
+# Run identifier
+PySara
+# Re-entry type
+uncontrolled
+# Uncontrolled re-entry methodology
+circular
+# World population growth scenario
+CONSTANT-FERTILITY
+# Casualty risk threshold /J 
+15.0
+# Orbit inclination / deg
+0.0
+#
+#
+# Total risk of the run configuration
+# -----------------------------------
+#
+# Total casualty area / m^2
+1.8019654150699158
+# Total impact mass / kg
+0.3523561611027224
+# Total casualty probability under the 1D projection /-
+1.6882108671123497E-5
+# Total fatality probability under the 1D projection /-
+2.7378941336309026E-9
+# Total number of unique fragments /-
+4
+# Total number of fragments /-
+4
+# Total number of unique floating fragments /-
+3
+# Total number of floating fragments /-
+3
+#
+# Individual fragment risk of the run configuration
+# -------------------------------------------------
+#
+# Unique ID
+e47378b3-1487-48d7-99ad-2143d6155f1d
+# Connected-to IDs
+e47378b3-1487-48d7-99ad-2143d6155f1d
+# Name
+ADCS
+# Quantity
+1
+# Mass / kg 
+0.0981528719490133
+# Velocity / m/s 
+24.349212192453738
+# Latitude / deg 
+-56.06049747603431
+# Longitude / deg 
+-72.59936495849601
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2021-10-18T14:47:17.246
+# Average geometric cross section / m^2 
+0.005733
+# Average casualty area / m^2 
+0.45659289214169246
+# Impact energy / J 
+29.09664026184562
+# Casualty probability 1D / - 
+4.277697992419271E-6
+# Fatality probability 1D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+4a9aeba4-5db7-410e-87ac-ff00eb69a367
+# Connected-to IDs
+4a9aeba4-5db7-410e-87ac-ff00eb69a367
+# Name
+OBC
+# Quantity
+1
+# Mass / kg 
+0.09020328915370904
+# Velocity / m/s 
+23.993578288769886
+# Latitude / deg 
+-54.904416149772686
+# Longitude / deg 
+-71.98054204286775
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2021-10-18T14:47:11.760
+# Average geometric cross section / m^2 
+0.005440499999999999
+# Average casualty area / m^2 
+0.4539521941426386
+# Impact energy / J 
+25.964646908787902
+# Casualty probability 1D / - 
+4.252957991592379E-6
+# Fatality probability 1D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+5ec80fef-472a-49e4-8831-11217eacc162
+# Connected-to IDs
+5ec80fef-472a-49e4-8831-11217eacc162
+# Name
+COMM
+# Quantity
+1
+# Mass / kg 
+0.075
+# Velocity / m/s 
+22.780270109529997
+# Latitude / deg 
+-54.58992111189425
+# Longitude / deg 
+-71.8183776140497
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2021-10-18T14:47:41.510
+# Average geometric cross section / m^2 
+0.005013
+# Average casualty area / m^2 
+0.4499760507926828
+# Impact energy / J 
+19.46027648486797
+# Casualty probability 1D / - 
+4.2157065566304905E-6
+# Fatality probability 1D / - 
+0.0
+# Would the object float / P 
+true
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Unique ID
+ef1decee-a1e9-480f-b2d1-264eddd0b744
+# Connected-to IDs
+ef1decee-a1e9-480f-b2d1-264eddd0b744
+# Name
+ANTENNA
+# Quantity
+1
+# Mass / kg 
+0.089
+# Velocity / m/s 
+27.338865201398725
+# Latitude / deg 
+-55.451258605771244
+# Longitude / deg 
+-72.2676612239723
+# Epoch / yyyy-MM-dd HH:mm:ss.SSS 
+2021-10-18T14:46:01.337
+# Average geometric cross section / m^2 
+0.004149
+# Average casualty area / m^2 
+0.441444277992902
+# Impact energy / J 
+33.25990299726113
+# Casualty probability 1D / - 
+4.135774634768522E-6
+# Fatality probability 1D / - 
+2.7378941846123375E-9
+# Would the object float / P 
+false
+# +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
