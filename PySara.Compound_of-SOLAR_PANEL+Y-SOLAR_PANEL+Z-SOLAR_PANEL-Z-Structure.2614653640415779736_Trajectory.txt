@@ -1,0 +1,28 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#              ESA Debris Risk Assessment and Mitigation Analysis
+#
+#                      ---- DRAMA ( SESAM 2.3.0 ) ----
+#                                      ESA 2018 
+#
+#                              trajectory history file
+#-------------------------------------------------------------------------------
+# Filename      : PySara.Compound_of-SOLAR_PANEL+Y-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure.2614653640415779736_Trajectory.txt
+# RunID         : PySara
+# ObjectID      : 2614653640415779736
+# ObjectName    : Compound_of-SOLAR_PANEL+Y-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure
+# Content       : This file contains the trajectory state data of the object,
+#                 computed by the DRAMA 3 Re-entry Analysis.
+# Documentation : DRAMA Software User Manual, section OPERATIONS MANUAL / Normal operation / SARA / SARA Simulation Output / Re-entry simulation output
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  Time [s]  Altitude [km]  Lat [deg]  Lon [deg]  Velocity [km/s]   Downrange [km]       Drag       Lift       Side    Knudsen       Mach  Flight Path [deg]  Heading [deg]  Density [kg/m^2]  DynPressure [Pa]   Load Factor [g]
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  1286.100          97.791    -40.592    -66.239            7.795        10017.811      1.794      0.000      0.000    0.54661   27.90982           -0.47673      193.74120         8.381e-07         2.546e+01         1.005e-01 
+  1286.200          97.785    -40.599    -66.241            7.795        10018.580      1.794      0.000      0.000    0.54605   27.91030           -0.47696      193.74205         8.390e-07         2.549e+01         1.006e-01 
+  1286.650          97.755    -40.629    -66.251            7.794        10022.043      1.793      0.000      0.000    0.54346   27.91252           -0.47799      193.74589         8.430e-07         2.561e+01         1.010e-01 

@@ -1,0 +1,47 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#              ESA Debris Risk Assessment and Mitigation Analysis
+#
+#                         ---- DRAMA ( SESAM r2.3.0 ) ----
+#                                      ESA 2018
+#
+#                         final state of history of the compound  objects
+#-------------------------------------------------------------------------------
+# Filename      : compoundHistory.txt
+# RunID         : PySara
+# Content       : This file lists the history of the compound  objects and provides information on the component of each compound until they separate,
+#                 computed by the DRAMA 3 Re-entry Analysis.
+# Documentation : DRAMA Software User Manual, section OPERATIONS MANUAL / Normal operation / SARA / SARA Simulation Output / Re-entry simulation output
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  CompoundID             Time[s]      Altitude[km]
+#     ObjectName                                    mass[kg]        ObjectFinalState
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   17276616445358212567   1282.550     98.020         
+x x x SOLAR PANEL+X                                 0.000           demised   
+x x x SOLAR PANEL-X                                 0.000           demised   
+x x x SOLAR PANEL+Y                                 0.001                     
+x x x Solar panel-y                                 0.001                     
+x x x SOLAR PANEL+Z                                 0.003                     
+x x x SOLAR PANEL-Z                                 0.003                     
+x x x Structure                                     0.851                     
+   9873595915830574375    1286.100     97.791         
+x x x Solar_panel-y                                 0.000           demised   
+x x x SOLAR_PANEL+Y                                 0.000                     
+x x x SOLAR_PANEL+Z                                 0.002                     
+x x x SOLAR_PANEL-Z                                 0.002                     
+x x x Structure                                     0.851                     
+   2614653640415779736    1286.650     97.755         
+x x x SOLAR_PANEL+Y                                 0.000           demised   
+x x x SOLAR_PANEL+Z                                 0.002                     
+x x x SOLAR_PANEL-Z                                 0.002                     
+x x x Structure                                     0.851                     
+   937004453408318760     1291.200     97.456         
+x x x SOLAR_PANEL+Z                                 0.000           demised   
+x x x SOLAR_PANEL-Z                                 0.000           demised   
+x x x Structure                                     0.851                     

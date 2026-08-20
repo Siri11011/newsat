@@ -1,0 +1,25 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#              ESA Debris Risk Assessment and Mitigation Analysis
+#
+#                         ---- DRAMA ( SESAM r2.3.0 ) ----
+#                                      ESA 2018
+#
+#                         final state of uncritical objects
+#-------------------------------------------------------------------------------
+# Filename      : uncriticalData.txt
+# RunID         : PySara
+# Content       : This file lists the uncritical objects (kin. energy < 15 J),
+#                 computed by the DRAMA 3 Re-entry Analysis.
+# Documentation : DRAMA Software User Manual, section OPERATIONS MANUAL / Normal operation / SARA / SARA Simulation Output / Re-entry simulation output
+#
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#  Time [s]  Altitude [km]  Lat [deg]  Lon [deg]  Velocity [km/s]   Downrange [km]       Drag       Lift       Side    Knudsen       Mach                UniqueID                  Name
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  2110.524           4.904    -53.774    -71.409            0.024        11535.488      0.272      0.000      0.000    0.00000    0.07628  c6f93ddd-13e8-4599-b4e2-9b50c6ce708d  EPS
+  1408.500          86.654    -48.653    -69.136            6.345        10943.823      1.221      0.000      0.000    0.09879   23.42418  83963a6f-141e-4505-8936-17fa406040df  PAYLOAD

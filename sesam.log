@@ -1,0 +1,293 @@
+#_______________________________________________________________________________
+#    ######   ####     ##             #####   #####     ##    #    #    ##
+#    #       #        #  #            #    #  #    #   #  #   ##  ##   #  #
+#    #####    ####   ######           #    #  #####   ######  # ## #  ######
+#    #            #  #    #           #    #  #    #  #    #  #    #  #    #
+#____######__#####___#____#___________#####___#____#__#____#__#____#__#____#____
+#
+#               ESA Debris Risk Assessment and Mitigation Analysis
+#
+#   ---- DRAMA ( SESAM 2.3.0 ( built Mar 17 2026 16:35:28) ) ----
+#                                      ESA 2022
+#
+#                        execution log file -sesam.log-
+#                   run date+time: Thu Aug 20 14:49:09 2026
+
+info: Starting Sesam
+info: SESAM module initialising
+info: Using voxelator cache dir: /home/ssa/Documents/1U_linear_new/data
+warning: oxideReactionProbability for drama-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-A316 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-A316_Semi-Empirical < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-BatCell-ABSL < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Bat-Li < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Bat-NiCd < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Beryllium < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Carbon-Carbon < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Copper < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-El-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-FusedSilicaProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-GFRPProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Haynes25Thick < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Haynes25Thin < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HC-AA7075 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HC-CFRP-4ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HC-CFRP-8ply < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-HiperCo < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Inconel718 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Inermet < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Invar < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Iron < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Molybdenum < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-SiC < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-SolarPanel-Mat < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-TiAl6v4 < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-TiAl6v4_Semi-Empirical < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-Tungsten < 1.0E-5 or not found. Continuing without oxidation for this material.
+warning: oxideReactionProbability for drama-ZerodurProxy < 1.0E-5 or not found. Continuing without oxidation for this material.
+info: Fragment satelliteOne initializing
+info: Creation of object list
+info: Creating Object with UniqueID: a8639e99-0008-45a4-b2da-5ab048880d15
+info: Opening netCDF file /home/ssa/DRAMA-4.1.4/TOOLS/SARA/REENTRY/data/ATDB_BOX.nc for reading DONE.
+info: Using ATDB for BOX created with SAM on 20200306 from data created by Belstead Research Limited.
+info: Included new object 'Structure' to fragment list
+info: Creating Object with UniqueID: c6f93ddd-13e8-4599-b4e2-9b50c6ce708d
+info: Included new object 'EPS' to fragment list
+info: Creating Object with UniqueID: e47378b3-1487-48d7-99ad-2143d6155f1d
+info: Included new object 'ADCS' to fragment list
+info: Creating Object with UniqueID: 4a9aeba4-5db7-410e-87ac-ff00eb69a367
+info: Included new object 'OBC' to fragment list
+info: Creating Object with UniqueID: 5ec80fef-472a-49e4-8831-11217eacc162
+info: Included new object 'COMM' to fragment list
+info: Creating Object with UniqueID: 83963a6f-141e-4505-8936-17fa406040df
+info: Included new object 'PAYLOAD' to fragment list
+info: Creating Object with UniqueID: ef1decee-a1e9-480f-b2d1-264eddd0b744
+info: Included new object 'ANTENNA' to fragment list
+info: Creating Object with UniqueID: 963a054b-b8a0-4188-99d2-b39dcdb2d8f9
+info: Included new object 'SOLAR PANEL+X' to fragment list
+info: Creating Object with UniqueID: 3588f412-e9fb-46f8-af4f-ccea773f37e9
+info: Included new object 'SOLAR PANEL-X' to fragment list
+info: Creating Object with UniqueID: 26020a61-7840-4349-b5aa-9e32bc2844c7
+info: Included new object 'SOLAR PANEL+Y' to fragment list
+info: Creating Object with UniqueID: 304a48b7-0198-4a93-a0e0-3bbd5fad78eb
+info: Included new object 'Solar panel-y' to fragment list
+info: Creating Object with UniqueID: 093376a3-d84e-407b-81f6-3b8aee3580b7
+info: Included new object 'SOLAR PANEL+Z' to fragment list
+info: Creating Object with UniqueID: e89ab0ac-9b35-471f-966f-e9162d5c521e
+info: Included new object 'SOLAR PANEL-Z' to fragment list
+info: Handling of inclusions
+info: inclusion with parent ID: a8639e99-0008-45a4-b2da-5ab048880d15
+info: childID: c6f93ddd-13e8-4599-b4e2-9b50c6ce708d
+info: childID: e47378b3-1487-48d7-99ad-2143d6155f1d
+info: childID: 4a9aeba4-5db7-410e-87ac-ff00eb69a367
+info: childID: 5ec80fef-472a-49e4-8831-11217eacc162
+info: childID: 83963a6f-141e-4505-8936-17fa406040df
+info: childID: ef1decee-a1e9-480f-b2d1-264eddd0b744
+info: Setting-up break-up triggers
+info: Handling of connections
+info: Using spacecraft mass calculated from objects hierarchy: 0.900680
+info: Testing for altitude above149km with input State: system= 232132, epoch= 2020-08-01T12:00:00, elements= 6793.531317, 0.001190, 98.619191, 184.140837, 21.279596, 338.706994
+info: Initial altitude above 149.000000km. Propagating with oscar.
+info: starting CstateConvertToOscar with input State: system= 232132, epoch= 2020-08-01T12:00:00, elements= 6793.531317, 0.001190, 98.619191, 184.140837, 21.279596, 338.706994
+info: starting PropagateWithOscar with input State: system= 231831, epoch= 2020-08-01T12:00:00, elements= 6783.999903, 0.000743, 98.606633, 183.542643, 35.394504, 324.921810
+info: using fragment mass of 0.900680
+info: Propagation ended with State: system= 231831, epoch= 2021-10-18T14:10:42, elements= 6488.092000, 0.000210, 98.557130, 5.409850, 96.728220, 35.104170
+info: Testing for altitude above149km with input State: system= 231831, epoch= 2021-10-18T14:10:42, elements= 6488.092000, 0.000210, 98.557130, 5.409850, 96.728220, 35.104170
+info: starting CstateConvertToHtgSesam with input State: system= 231831, epoch= 2021-10-18T14:10:42, elements= 6488.092000, 0.000210, 98.557130, 5.409850, 96.728220, 35.104170
+info: Passing geodetic state below 149.000000km to sesam: State: system= 235102, epoch= 2021-10-18T14:10:42, elements= 124.895357, 47.256413, -44.307526, 7.909641, -0.146166, -104.840731
+info: Using static environment from CSV file /home/ssa/DRAMA-4.1.4/TOOLS/SARA/REENTRY/data/StaticEnvironmentData.csv.
+info: SESAM initialisation DONE.
+info: SESAM propagation started
+info: Starting propagation of Fragment with uniqueID 17276616445358212567.
+info: Using data read from file /home/ssa/Documents/1U_linear_new/data/ShadingFactorMatrix_12601549247721606508.nc
+info: EVENT area 963a054b-b8a0-4188-99d2-b39dcdb2d8f9 0.004019 0.020800 0.772932
+info: EVENT area 3588f412-e9fb-46f8-af4f-ccea773f37e9 0.004019 0.020800 0.772932
+info: EVENT area 26020a61-7840-4349-b5aa-9e32bc2844c7 0.003198 0.020800 0.615070
+info: EVENT area 304a48b7-0198-4a93-a0e0-3bbd5fad78eb 0.003198 0.020800 0.615070
+info: EVENT area 093376a3-d84e-407b-81f6-3b8aee3580b7 0.002268 0.020800 0.436196
+info: EVENT area e89ab0ac-9b35-471f-966f-e9162d5c521e 0.002268 0.020800 0.436196
+info: EVENT area a8639e99-0008-45a4-b2da-5ab048880d15 0.000000 0.060000 0.000000
+info: EVENT start 17276616445358212567 0.900680 0.018972 2021-10-18T14:10:42
+info: Object 963a054b-b8a0-4188-99d2-b39dcdb2d8f9 demised.
+info: EVENT object 963a054b-b8a0-4188-99d2-b39dcdb2d8f9 demise
+info: Object 3588f412-e9fb-46f8-af4f-ccea773f37e9 demised.
+info: EVENT object 3588f412-e9fb-46f8-af4f-ccea773f37e9 demise
+info: Object 963a054b-b8a0-4188-99d2-b39dcdb2d8f9 reached end of life.
+info: Compound 17276616445358212567 reached end of life because object 963a054b-b8a0-4188-99d2-b39dcdb2d8f9 reached end of life.
+info: ObjectTrajectory Written: PySara.Compound_of-SOLAR_PANEL+X-SOLAR_PANEL-X-SOLAR_PANEL+Y-Solar_panel-y-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure.17276616445358212567_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Compound_of-SOLAR_PANEL+X-SOLAR_PANEL-X-SOLAR_PANEL+Y-Solar_panel-y-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure.17276616445358212567.gnu
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL+X.17276616445358212567_963a054b-b8a0-4188-99d2-b39dcdb2d8f9_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL-X.17276616445358212567_3588f412-e9fb-46f8-af4f-ccea773f37e9_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL+Y.17276616445358212567_26020a61-7840-4349-b5aa-9e32bc2844c7_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.Solar_panel-y.17276616445358212567_304a48b7-0198-4a93-a0e0-3bbd5fad78eb_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL+Z.17276616445358212567_093376a3-d84e-407b-81f6-3b8aee3580b7_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL-Z.17276616445358212567_e89ab0ac-9b35-471f-966f-e9162d5c521e_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.Structure.17276616445358212567_a8639e99-0008-45a4-b2da-5ab048880d15_AeroThermalHistory.txt
+info: EVENT end 17276616445358212567 0.859001
+info: Object 963a054b-b8a0-4188-99d2-b39dcdb2d8f9 reached end of life.
+info: Object 3588f412-e9fb-46f8-af4f-ccea773f37e9 reached end of life.
+info: Dropping Connection between a8639e99-0008-45a4-b2da-5ab048880d15 and 963a054b-b8a0-4188-99d2-b39dcdb2d8f9 because 963a054b-b8a0-4188-99d2-b39dcdb2d8f9 demised.
+info: Dropping Connection between a8639e99-0008-45a4-b2da-5ab048880d15 and 3588f412-e9fb-46f8-af4f-ccea773f37e9 because 3588f412-e9fb-46f8-af4f-ccea773f37e9 demised.
+info: Adding 1 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 9873595915830574375.
+info: Using data read from file /home/ssa/Documents/1U_linear_new/data/ShadingFactorMatrix_3271027943889108259.nc
+info: EVENT area 304a48b7-0198-4a93-a0e0-3bbd5fad78eb 0.004398 0.019840 0.886603
+info: EVENT area 26020a61-7840-4349-b5aa-9e32bc2844c7 0.004398 0.019956 0.881455
+info: EVENT area 093376a3-d84e-407b-81f6-3b8aee3580b7 0.002885 0.020693 0.557590
+info: EVENT area e89ab0ac-9b35-471f-966f-e9162d5c521e 0.002885 0.020693 0.557590
+info: EVENT area a8639e99-0008-45a4-b2da-5ab048880d15 0.003962 0.060000 0.264115
+info: EVENT start 9873595915830574375 0.859001 0.018526 2021-10-18T14:32:04
+info: Object 304a48b7-0198-4a93-a0e0-3bbd5fad78eb demised.
+info: EVENT object 304a48b7-0198-4a93-a0e0-3bbd5fad78eb demise
+info: Object 304a48b7-0198-4a93-a0e0-3bbd5fad78eb reached end of life.
+info: Compound 9873595915830574375 reached end of life because object 304a48b7-0198-4a93-a0e0-3bbd5fad78eb reached end of life.
+info: ObjectTrajectory Written: PySara.Compound_of-Solar_panel-y-SOLAR_PANEL+Y-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure.9873595915830574375_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Compound_of-Solar_panel-y-SOLAR_PANEL+Y-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure.9873595915830574375.gnu
+info: AeroThermalHistory Written: PySara.Solar_panel-y.9873595915830574375_304a48b7-0198-4a93-a0e0-3bbd5fad78eb_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL+Y.9873595915830574375_26020a61-7840-4349-b5aa-9e32bc2844c7_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL+Z.9873595915830574375_093376a3-d84e-407b-81f6-3b8aee3580b7_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL-Z.9873595915830574375_e89ab0ac-9b35-471f-966f-e9162d5c521e_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.Structure.9873595915830574375_a8639e99-0008-45a4-b2da-5ab048880d15_AeroThermalHistory.txt
+info: EVENT end 9873595915830574375 0.854432
+info: Object 304a48b7-0198-4a93-a0e0-3bbd5fad78eb reached end of life.
+info: Dropping Connection between a8639e99-0008-45a4-b2da-5ab048880d15 and 304a48b7-0198-4a93-a0e0-3bbd5fad78eb because 304a48b7-0198-4a93-a0e0-3bbd5fad78eb demised.
+info: Adding 1 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 2614653640415779736.
+info: Using data read from file /home/ssa/Documents/1U_linear_new/data/ShadingFactorMatrix_8133998599027976748.nc
+info: EVENT area 26020a61-7840-4349-b5aa-9e32bc2844c7 0.004415 0.019300 0.915114
+info: EVENT area 093376a3-d84e-407b-81f6-3b8aee3580b7 0.003508 0.020129 0.697181
+info: EVENT area e89ab0ac-9b35-471f-966f-e9162d5c521e 0.003508 0.020129 0.697181
+info: EVENT area a8639e99-0008-45a4-b2da-5ab048880d15 0.007004 0.060000 0.466929
+info: EVENT start 2614653640415779736 0.854432 0.018436 2021-10-18T14:32:08
+info: Object 26020a61-7840-4349-b5aa-9e32bc2844c7 demised.
+info: EVENT object 26020a61-7840-4349-b5aa-9e32bc2844c7 demise
+info: Object 26020a61-7840-4349-b5aa-9e32bc2844c7 reached end of life.
+info: Compound 2614653640415779736 reached end of life because object 26020a61-7840-4349-b5aa-9e32bc2844c7 reached end of life.
+info: ObjectTrajectory Written: PySara.Compound_of-SOLAR_PANEL+Y-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure.2614653640415779736_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Compound_of-SOLAR_PANEL+Y-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure.2614653640415779736.gnu
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL+Y.2614653640415779736_26020a61-7840-4349-b5aa-9e32bc2844c7_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL+Z.2614653640415779736_093376a3-d84e-407b-81f6-3b8aee3580b7_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL-Z.2614653640415779736_e89ab0ac-9b35-471f-966f-e9162d5c521e_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.Structure.2614653640415779736_a8639e99-0008-45a4-b2da-5ab048880d15_AeroThermalHistory.txt
+info: EVENT end 2614653640415779736 0.853858
+info: Object 26020a61-7840-4349-b5aa-9e32bc2844c7 reached end of life.
+info: Dropping Connection between a8639e99-0008-45a4-b2da-5ab048880d15 and 26020a61-7840-4349-b5aa-9e32bc2844c7 because 26020a61-7840-4349-b5aa-9e32bc2844c7 demised.
+info: Adding 1 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 937004453408318760.
+info: Using data read from file /home/ssa/Documents/1U_linear_new/data/ShadingFactorMatrix_13403172039285026290.nc
+info: EVENT area 093376a3-d84e-407b-81f6-3b8aee3580b7 0.004136 0.020024 0.826225
+info: EVENT area e89ab0ac-9b35-471f-966f-e9162d5c521e 0.004136 0.020024 0.826225
+info: EVENT area a8639e99-0008-45a4-b2da-5ab048880d15 0.010061 0.060000 0.670740
+info: EVENT start 937004453408318760 0.853858 0.018333 2021-10-18T14:32:08
+info: Object 093376a3-d84e-407b-81f6-3b8aee3580b7 demised.
+info: EVENT object 093376a3-d84e-407b-81f6-3b8aee3580b7 demise
+info: Object e89ab0ac-9b35-471f-966f-e9162d5c521e demised.
+info: EVENT object e89ab0ac-9b35-471f-966f-e9162d5c521e demise
+info: Object 093376a3-d84e-407b-81f6-3b8aee3580b7 reached end of life.
+info: Compound 937004453408318760 reached end of life because object 093376a3-d84e-407b-81f6-3b8aee3580b7 reached end of life.
+info: ObjectTrajectory Written: PySara.Compound_of-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure.937004453408318760_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Compound_of-SOLAR_PANEL+Z-SOLAR_PANEL-Z-Structure.937004453408318760.gnu
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL+Z.937004453408318760_093376a3-d84e-407b-81f6-3b8aee3580b7_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.SOLAR_PANEL-Z.937004453408318760_e89ab0ac-9b35-471f-966f-e9162d5c521e_AeroThermalHistory.txt
+info: AeroThermalHistory Written: PySara.Structure.937004453408318760_a8639e99-0008-45a4-b2da-5ab048880d15_AeroThermalHistory.txt
+info: EVENT end 937004453408318760 0.850700
+info: Object 093376a3-d84e-407b-81f6-3b8aee3580b7 reached end of life.
+info: Object e89ab0ac-9b35-471f-966f-e9162d5c521e reached end of life.
+info: Dropping Connection between 093376a3-d84e-407b-81f6-3b8aee3580b7 and a8639e99-0008-45a4-b2da-5ab048880d15 because 093376a3-d84e-407b-81f6-3b8aee3580b7 demised.
+info: Dropping Connection between a8639e99-0008-45a4-b2da-5ab048880d15 and e89ab0ac-9b35-471f-966f-e9162d5c521e because e89ab0ac-9b35-471f-966f-e9162d5c521e demised.
+info: Adding 1 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID a8639e99-0008-45a4-b2da-5ab048880d15.
+info: EVENT area a8639e99-0008-45a4-b2da-5ab048880d15 0.015000
+info: EVENT start a8639e99-0008-45a4-b2da-5ab048880d15 0.850700 0.015000 2021-10-18T14:32:13
+info: Object a8639e99-0008-45a4-b2da-5ab048880d15 demised.
+info: EVENT object a8639e99-0008-45a4-b2da-5ab048880d15 demise
+info: Object a8639e99-0008-45a4-b2da-5ab048880d15 reached end of life.
+info: ObjectTrajectory Written: PySara.Structure.a8639e99-0008-45a4-b2da-5ab048880d15_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.Structure.a8639e99-0008-45a4-b2da-5ab048880d15.gnu
+info: AeroThermalHistory Written: PySara.Structure.a8639e99-0008-45a4-b2da-5ab048880d15_AeroThermalHistory.txt
+info: EVENT end a8639e99-0008-45a4-b2da-5ab048880d15 0.639500
+info: Adding 6 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID c6f93ddd-13e8-4599-b4e2-9b50c6ce708d.
+info: EVENT area c6f93ddd-13e8-4599-b4e2-9b50c6ce708d 0.004779
+info: EVENT start c6f93ddd-13e8-4599-b4e2-9b50c6ce708d 0.050000 0.004779 2021-10-18T14:33:32
+info: Fragment c6f93ddd-13e8-4599-b4e2-9b50c6ce708d reached end of life because uncritical.
+info: EVENT fragment c6f93ddd-13e8-4599-b4e2-9b50c6ce708d uncritical
+info: Object c6f93ddd-13e8-4599-b4e2-9b50c6ce708d reached end of life.
+info: ObjectTrajectory Written: PySara.EPS.c6f93ddd-13e8-4599-b4e2-9b50c6ce708d_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.EPS.c6f93ddd-13e8-4599-b4e2-9b50c6ce708d.gnu
+info: AeroThermalHistory Written: PySara.EPS.c6f93ddd-13e8-4599-b4e2-9b50c6ce708d_AeroThermalHistory.txt
+info: EVENT end c6f93ddd-13e8-4599-b4e2-9b50c6ce708d 0.050000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID e47378b3-1487-48d7-99ad-2143d6155f1d.
+info: EVENT area e47378b3-1487-48d7-99ad-2143d6155f1d 0.005733
+info: EVENT start e47378b3-1487-48d7-99ad-2143d6155f1d 0.196000 0.005733 2021-10-18T14:33:32
+warning: The altitude is below the lowest value in the data. Therefore, the lowest altitude for which data are given is used (altitude = 0.000000 m).
+This message is shown only once.
+info: Fragment e47378b3-1487-48d7-99ad-2143d6155f1d reached end of life because of ground impact.
+info: Object e47378b3-1487-48d7-99ad-2143d6155f1d reached end of life.
+info: EVENT fragment e47378b3-1487-48d7-99ad-2143d6155f1d impact
+info: ObjectTrajectory Written: PySara.ADCS.e47378b3-1487-48d7-99ad-2143d6155f1d_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.ADCS.e47378b3-1487-48d7-99ad-2143d6155f1d.gnu
+info: AeroThermalHistory Written: PySara.ADCS.e47378b3-1487-48d7-99ad-2143d6155f1d_AeroThermalHistory.txt
+info: EVENT end e47378b3-1487-48d7-99ad-2143d6155f1d 0.098153
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 4a9aeba4-5db7-410e-87ac-ff00eb69a367.
+info: EVENT area 4a9aeba4-5db7-410e-87ac-ff00eb69a367 0.005440
+info: EVENT start 4a9aeba4-5db7-410e-87ac-ff00eb69a367 0.094000 0.005440 2021-10-18T14:33:32
+info: Fragment 4a9aeba4-5db7-410e-87ac-ff00eb69a367 reached end of life because of ground impact.
+info: Object 4a9aeba4-5db7-410e-87ac-ff00eb69a367 reached end of life.
+info: EVENT fragment 4a9aeba4-5db7-410e-87ac-ff00eb69a367 impact
+info: ObjectTrajectory Written: PySara.OBC.4a9aeba4-5db7-410e-87ac-ff00eb69a367_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.OBC.4a9aeba4-5db7-410e-87ac-ff00eb69a367.gnu
+info: AeroThermalHistory Written: PySara.OBC.4a9aeba4-5db7-410e-87ac-ff00eb69a367_AeroThermalHistory.txt
+info: EVENT end 4a9aeba4-5db7-410e-87ac-ff00eb69a367 0.090203
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 5ec80fef-472a-49e4-8831-11217eacc162.
+info: EVENT area 5ec80fef-472a-49e4-8831-11217eacc162 0.005013
+info: EVENT start 5ec80fef-472a-49e4-8831-11217eacc162 0.075000 0.005013 2021-10-18T14:33:32
+info: Fragment 5ec80fef-472a-49e4-8831-11217eacc162 reached end of life because of ground impact.
+info: Object 5ec80fef-472a-49e4-8831-11217eacc162 reached end of life.
+info: EVENT fragment 5ec80fef-472a-49e4-8831-11217eacc162 impact
+info: ObjectTrajectory Written: PySara.COMM.5ec80fef-472a-49e4-8831-11217eacc162_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.COMM.5ec80fef-472a-49e4-8831-11217eacc162.gnu
+info: AeroThermalHistory Written: PySara.COMM.5ec80fef-472a-49e4-8831-11217eacc162_AeroThermalHistory.txt
+info: EVENT end 5ec80fef-472a-49e4-8831-11217eacc162 0.075000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID 83963a6f-141e-4505-8936-17fa406040df.
+info: EVENT area 83963a6f-141e-4505-8936-17fa406040df 0.007461
+info: EVENT start 83963a6f-141e-4505-8936-17fa406040df 0.135500 0.007461 2021-10-18T14:33:32
+info: Object 83963a6f-141e-4505-8936-17fa406040df demised.
+info: EVENT object 83963a6f-141e-4505-8936-17fa406040df demise
+info: Fragment 83963a6f-141e-4505-8936-17fa406040df reached end of life because uncritical.
+info: Object 83963a6f-141e-4505-8936-17fa406040df reached end of life.
+info: ObjectTrajectory Written: PySara.PAYLOAD.83963a6f-141e-4505-8936-17fa406040df_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.PAYLOAD.83963a6f-141e-4505-8936-17fa406040df.gnu
+info: AeroThermalHistory Written: PySara.PAYLOAD.83963a6f-141e-4505-8936-17fa406040df_AeroThermalHistory.txt
+info: EVENT end 83963a6f-141e-4505-8936-17fa406040df 0.000000
+info: Adding 0 new fragments to fragmentList.
+info: Starting propagation of Fragment with uniqueID ef1decee-a1e9-480f-b2d1-264eddd0b744.
+info: EVENT area ef1decee-a1e9-480f-b2d1-264eddd0b744 0.004149
+info: EVENT start ef1decee-a1e9-480f-b2d1-264eddd0b744 0.089000 0.004149 2021-10-18T14:33:32
+info: Fragment ef1decee-a1e9-480f-b2d1-264eddd0b744 reached end of life because of ground impact.
+info: Object ef1decee-a1e9-480f-b2d1-264eddd0b744 reached end of life.
+info: EVENT fragment ef1decee-a1e9-480f-b2d1-264eddd0b744 impact
+info: ObjectTrajectory Written: PySara.ANTENNA.ef1decee-a1e9-480f-b2d1-264eddd0b744_Trajectory.txt
+info: GnuPlotGeneration::GenerateSingleObjectScript Wrote PySara.ANTENNA.ef1decee-a1e9-480f-b2d1-264eddd0b744.gnu
+info: AeroThermalHistory Written: PySara.ANTENNA.ef1decee-a1e9-480f-b2d1-264eddd0b744_AeroThermalHistory.txt
+info: EVENT end ef1decee-a1e9-480f-b2d1-264eddd0b744 0.089000
+info: Adding 0 new fragments to fragmentList.
+info: Writing 17276616445358212567 to XML
+info: Writing 9873595915830574375 to XML
+info: Writing 2614653640415779736 to XML
+info: Writing 937004453408318760 to XML
+info: Writing a8639e99-0008-45a4-b2da-5ab048880d15 to XML
+info: Writing c6f93ddd-13e8-4599-b4e2-9b50c6ce708d to XML
+info: Writing e47378b3-1487-48d7-99ad-2143d6155f1d to XML
+info: Writing 4a9aeba4-5db7-410e-87ac-ff00eb69a367 to XML
+info: Writing 5ec80fef-472a-49e4-8831-11217eacc162 to XML
+info: Writing 83963a6f-141e-4505-8936-17fa406040df to XML
+info: Writing ef1decee-a1e9-480f-b2d1-264eddd0b744 to XML
+info: ImpactingFragmentXML::WriteXML Wrote PySara.ImpactingFragments.xml
+info: GnuPlotGeneration::GenerateAllObjectsScript Wrote PySara.gnu
+info: Preparing visibility maps...
+info: Propagation Successful

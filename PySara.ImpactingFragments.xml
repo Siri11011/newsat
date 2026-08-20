@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fragments>
+	<fragment>
+		<name>ADCS</name>
+		<objects>
+			<uniqueID>e47378b3-1487-48d7-99ad-2143d6155f1d</uniqueID>
+		</objects>
+		<epoch>2021-10-18T14:47:17.246</epoch>
+		<mass unit="kg">9.8152871949013301e-02</mass>
+		<velocity unit="m/s">2.4349212192453738e+01</velocity>
+		<latitude unit="deg">-5.6060497476034307e+01</latitude>
+		<longitude unit="deg">-7.2599364958496011e+01</longitude>
+		<crossSectionArea unit="m2">5.7330000000000002e-03</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>OBC</name>
+		<objects>
+			<uniqueID>4a9aeba4-5db7-410e-87ac-ff00eb69a367</uniqueID>
+		</objects>
+		<epoch>2021-10-18T14:47:11.760</epoch>
+		<mass unit="kg">9.0203289153709038e-02</mass>
+		<velocity unit="m/s">2.3993578288769886e+01</velocity>
+		<latitude unit="deg">-5.4904416149772686e+01</latitude>
+		<longitude unit="deg">-7.1980542042867754e+01</longitude>
+		<crossSectionArea unit="m2">5.4404999999999992e-03</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>COMM</name>
+		<objects>
+			<uniqueID>5ec80fef-472a-49e4-8831-11217eacc162</uniqueID>
+		</objects>
+		<epoch>2021-10-18T14:47:41.510</epoch>
+		<mass unit="kg">7.4999999999999997e-02</mass>
+		<velocity unit="m/s">2.2780270109529997e+01</velocity>
+		<latitude unit="deg">-5.4589921111894249e+01</latitude>
+		<longitude unit="deg">-7.1818377614049695e+01</longitude>
+		<crossSectionArea unit="m2">5.0130000000000001e-03</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>true</isFloating>
+	</fragment>
+	<fragment>
+		<name>ANTENNA</name>
+		<objects>
+			<uniqueID>ef1decee-a1e9-480f-b2d1-264eddd0b744</uniqueID>
+		</objects>
+		<epoch>2021-10-18T14:46:01.337</epoch>
+		<mass unit="kg">8.8999999999999996e-02</mass>
+		<velocity unit="m/s">2.7338865201398725e+01</velocity>
+		<latitude unit="deg">-5.5451258605771244e+01</latitude>
+		<longitude unit="deg">-7.2267661223972297e+01</longitude>
+		<crossSectionArea unit="m2">4.1489999999999999e-03</crossSectionArea>
+		<quantity>1</quantity>
+		<isFloating>false</isFloating>
+	</fragment>
+</fragments>
